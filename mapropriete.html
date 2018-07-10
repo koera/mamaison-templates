@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ma Maison / Ma propriété</title>
+    <!--Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Houzez HTML5 Template">
+    <meta name="description" content="Houzez HTML5 Template">
+    <meta name="author" content="Favethemes">
+    <meta name="theme-color" content="#ffffff">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-select.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/mediaqueries.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!--start header section header v1-->
+    <header id="header-section" class="header-section-4 nav-left hidden-sm hidden-xs" data-sticky="1">
+        <div class="container">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/mamaison2.png" alt="logo">
+                    </a>
+                </div>
+                <nav class="navi main-nav">
+                    <ul>
+                        <li><a href="index.html">à VENDRE</a>
+                            <ul class="sub-menu">
+                                <li><a href="home-splash.html">MA MAISON</a></li>
+                                <li><a href="home-splash.html">APPARTEMENT</a></li>
+                                <li><a href="#">PROPPRIETE</a></li>
+                                <li><a href="#">COMMERCIALES</a>                                  
+                                <li><a href="#">TERRAINS</a>                                  
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">à LOUER</a>
+                             <ul class="sub-menu">
+                                <li><a href="home-splash.html">Ma maison</a></li>
+                                <li><a href="home-splash.html">Appartement</a></li>
+                                <li><a href="#">Propriété</a></li>
+                                <li><a href="#">Commerciales</a>                                  
+                                <li><a href="#">Terrains</a>                                  
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-right">
+                <div class="user">
+                    <a href="#" >Se connecter</a>
+                    <a href="#" > Créer un compte</a>
+                    <a href="add-new-property.html" class="btn btn-default">Publier votre propriété</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-mobile visible-sm visible-xs">
+        <div class="container">
+            <!--start mobile nav-->
+            <div class="mobile-nav">
+                <span class="nav-trigger"><i class="fa fa-navicon"></i></span>
+                <div class="nav-dropdown main-nav-dropdown"></div>
+            </div>
+            <!--end mobile nav-->
+            <div class="header-logo">
+                <a href="index.html"><img src="images/mamaison2.png" alt="logo"></a>
+            </div>
+            <div class="header-user">
+                <div class="user">
+                    <a href="#" data-toggle="modal" data-target="#pop-login"><i class="fa fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end header section header v1-->
+	
+	<!-- popup start -->
+		 <div class="modal fade" id="pop-login" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <ul class="login-tabs">
+                        <li class="active">Se connecter</li>
+                        <li>S'enregistrer</li>
+                    </ul>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+
+                </div>
+                <div class="modal-body login-block">
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active">
+                            <div class="message">
+                                <p class="error text-danger"><i class="fa fa-close"></i> Vous n'êtes pas Connectés</p>
+                                <p class="success text-success"><i class="fa fa-check"></i> Vous n'êtes pas Connectés</p>
+                            </div>
+                            <form>
+                                <div class="form-group field-group">
+                                    <div class="input-user input-icon">
+                                        <input placeholder="Utilisateur">
+                                    </div>
+                                    <div class="input-email input-icon">
+                                        <input placeholder="Adresse E-mail">
+                                    </div>
+                                </div>
+                                <div class="forget-block clearfix">
+                                    <div class="form-group pull-left">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox">
+                                                Se souvenir de moi
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group pull-right">
+                                        <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#pop-reset-pass">Mots de passe oublié</a>
+                                    </div>
+                                </div>
+
+                                <div class="btn btn-primary btn-block">Se connecter</div>
+                            </form>
+                            <hr>
+                            <a href="#" class="btn btn-social btn-bg-facebook btn-block"><i class="fa fa-facebook"></i>Se connecter avec facebook</a>
+                        </div>
+                        <div class="tab-pane fade">
+                            <form>
+                                <div class="form-group field-group">
+                                    <div class="input-user input-icon">
+                                        <input placeholder="Utilisateur">
+                                    </div>
+									
+                                    <div class="input-email input-icon">
+                                        <input placeholder="Adresse E-mail">
+                                    </div> 
+									<div class="input-mdp input-icon">
+                                        <input placeholder="Mots de passe">
+                                    </div> 
+									<div class="input-cmdp input-icon">
+                                        <input placeholder="confirmé le mots de passe">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">
+                                            Je suis d'accord avec vos <a href="#"> termes et conditions.</a>.
+                                        </label>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary btn-block">S'inscrire</button>
+                            </form>
+                            <hr>
+
+                            <a href="#" class="btn btn-social btn-bg-facebook btn-block"><i class="fa fa-facebook"></i>Se connecter avec facebook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+<div class="modal fade" id="pop-reset-pass" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <ul class="login-tabs">
+                    <li class="active">Réinitialiser le mot de passe</li>
+                </ul>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>Veuillez saisir votre identifiant ou adresse mail. Vous recevrez un lien pour créer un nouveau mot de passe par e-mail.</p>
+                <form>
+                    <div class="form-group">
+                        <div class="input-user input-icon">
+                            <input placeholder="Enter your username or email" class="form-control">
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-block">Obtenir un nouveau mot de passe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+	<!-- popup end -->
+
+   <section class="advanced-search advance-search-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <form>
+                        <div class="form-group search-long">
+                            <div class="search">
+                                <div class="input-search input-icon">
+                                    <input class="form-control" type="text" placeholder="Entrez une adresse, une ville, une rue ou un zip">
+                                </div>
+                                <select name="location" class="selectpicker bs-select-hidden" data-live-search="false" data-live-search-style="begins">
+                                    <option value="">Toutes les villes</option>
+                                    <option value="chicago">Antananarivo</option>
+                                    <option value="los-angeles">Antsirabe</option>
+                                    <option value="miami">Diego</option>
+                                    <option value="new-york">Farafangana</option>
+                                </select>
+                                <select name="area" class="selectpicker bs-select-hidden" data-live-search="false" data-live-search-style="begins">
+                                    <option value="">Toutes les zones</option>
+                                    <option value="beverly-hills">Mahamasina</option>
+                                    <option value="brickell">Analakely</option>
+                                    <option value="brickyard">Besarety</option>
+                                    <option value="bronx">Andravohangy</option>
+                                    <option value="brooklyn">Ampasapiito</option>
+                                    <option value="coconut-grove">Akadimbahoka</option>
+                                    <option value="downtown">Andrepamaky</option>
+                                    <option value="eagle-rock">Amboanjobe</option>
+                                    <option value="englewood">Ankarobato</option>
+                                    <option value="hermosa">Ankasina</option>
+                                    <option value="hollywood">Ampitatafika</option>
+                                    <option value="lincoln-park">Itaosy</option>
+                                    <option value="manhattan">Ankatso</option>
+                                    <option value="midtown">Ampasika</option>
+                                    <option value="queens">Keniheny</option>
+                                    <option value="westwood">Ambatolampy</option>
+                                    <option value="wynwood">Ibity</option>
+                                </select>
+                                <div class="advance-btn-holder">
+                                    <button class="advance-btn btn" type="button"><i class="fa fa-gear"></i>Avance</button>
+                                </div>
+                            </div>
+                            <div class="search-btn">
+                                <button class="btn btn-primary">Go</button>
+                            </div>
+                        </div>
+                        <div class="advance-fields">
+                            <div class="row">
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Status">
+                                            <option>Statu 1</option>
+                                            <option>Statu 2</option>
+                                            <option>Statu 3</option>
+                                            <option>Statu 4</option>
+                                            <option>Statu 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Property Type">
+                                            <option>Type de propriété 1</option>
+                                            <option>Type de propriété 2</option>
+                                            <option>Type de propriété 3</option>
+                                            <option>Type de propriété 4</option>
+                                            <option>Type de propriété 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Beds">
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Baths">
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Min Price">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Max Price">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Min Areas (Sqft)">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Max Areas (Sqft)">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-xs-12 features-list">
+
+                                    <label class="text-uppercase title">Autres caractéristiques</label>
+                                    <div class="clearfix"></div>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option1"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option2"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option3"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option1"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option2"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option3"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option1"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option2"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option3"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option1"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option2"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option3"> Caractéristique
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end advanced search section-->
+	
+	<section class="advanced-search-mobile visible-xs visible-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <form>
+                        <div class="single-search-wrap">
+                            <div class="single-search-inner advance-btn">
+                                <button class="table-cell text-left" type="button"><i class="fa fa-gear"></i></button>
+                            </div>
+                            <div class="single-search-inner single-search">
+
+                                <input type="text" class="form-control table-cell" name="search" placeholder="Chercher">
+                            </div>
+                            <div class="single-search-inner single-seach-btn">
+                                <button class="table-cell text-right" type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="advance-fields">
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Location">
+                                            <option>Location 1</option>
+                                            <option>Location 2</option>
+                                            <option>Location 3</option>
+                                            <option>Location 4</option>
+                                            <option>Location 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Status">
+                                            <option>Statu 1</option>
+                                            <option>Statu 2</option>
+                                            <option>Statu 3</option>
+                                            <option>Statu 4</option>
+                                            <option>Statu 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Property Type">
+                                            <option>Type de propriété 1</option>
+                                            <option>Type de propriété 2</option>
+                                            <option>Type de propriété 3</option>
+                                            <option>Type de propriété 4</option>
+                                            <option>Type de propriété 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Beds">
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Baths">
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Min Areas (Sqft)">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Max Areas (Sqft)">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-xs-12">
+                                    <div class="range-advanced-main">
+                                        <div class="range-text">
+                                            <input type="hidden" class="min-price-range-hidden range-input" readonly >
+                                            <input type="hidden" class="max-price-range-hidden range-input" readonly >
+                                            <p><span class="range-title">Price Range:</span> from <span class="min-price-range"></span> to <span class="max-price-range"></span></p>
+                                        </div>
+                                        <div class="range-wrap">
+                                            <div class="price-range-advanced"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+                                    <button type="submit" class="btn btn-secondary btn-block"><i class="fa fa-search pull-left"></i> Chercher</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end advanced search section-->
+	
+	 <!--start section page body-->
+    <section id="section-body">
+
+        <div class="container">
+            <div class="page-title">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="page-title-left">
+                            <h2>Mes Propriétés</h2>
+                        </div>
+                        <div class="page-title-right">
+                            <ol class="breadcrumb"><li><a href="/"><i class="fa fa-home"></i></a></li><li class="active">Mes Propriétés</li></ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-4 user-dashboard-left">
+                    <div class="my-sidebar">
+                        <ul class="list-unstyled my-menu">
+                            <li> <a href="my-account.html"> <i class="fa fa-user"></i>Profile</a></li>
+                            <li class="active"> <a href="#"> <i class="fa fa-building"></i> Mes Propriétés </a></li>
+                            <li> <a href="#"> <i class="fa fa-plus-circle"></i> Ajouter un nouveau Propriétés </a></li>
+                            <li> <a href="#"> <i class="fa fa-heart"></i> Propriétés favorites </a></li>
+                            <li> <a href="#"> <i class="fa fa-search-plus"></i> Recherches sauvegardées </a></li>
+                            <li> <a href="#"> <i class="fa fa-file"></i> Factures </a></li>
+                            <li> <a href="#"> <i class="fa fa-unlock"></i> Se déconnecter </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-8 user-dashboard-right">
+                    <div class="account-block">
+                        <div class="list-tabs">
+                            <div class="tabs">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="active">TOUS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">à vendre</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">à Louer</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="my-property-search">
+                            <form>
+                                <div class="table-list">
+                                    <div class="form-group table-cell">
+                                        <input class="form-control" placeholder="Rechercher par liste">
+                                    </div>
+                                    <div class="table-cell">
+                                        <button class="btn btn-orange">Chercher</button>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                        <div class="my-property-listing">
+                            <div class="row grid-row">
+                                <div class="item-wrap">
+                                    <div class="media my-property">
+                                        <div class="media-left">
+                                            <div class="figure-block">
+                                                <figure class="item-thumb">
+                                                    <span class="label-featured label label-success">En vedette</span>
+                                                    <a href="#">
+                                                        <img src="http://placehold.it/150x110" alt="thumb">
+                                                    </a>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="media-body media-middle">
+                                            <div class="my-description">
+                                                <h4 class="my-heading"><a href="#"><span class="label label-warning">SOUS HOMOLOGATION</span>Appartement mada</a></h4>
+                                                <p class="address">Mahamasina</p>
+                                                <p class="status"><strong>Status:</strong> à vendre <strong>Prix:</strong> AR 350.000 / 2,650m<sup>2</sup></p>
+                                            </div>
+                                            <div class="my-actions">
+                                                <div class="btn-group">
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-edit"></i></a>
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Remove"><i class="fa fa-close"></i></a>
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Book"><i class="fa fa-book"></i></a>
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Star"><i class="fa fa-star"></i></a>
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Upload"><i class="fa fa-upload"></i></a>
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Chart"><i class="fa fa-area-chart"></i></a>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <button class="pay-btn action-btn">Payez  <i class="fa fa-angle-down"></i></button>
+                                                    <div class="dropdown-menu">
+                                                        <div class="pay-options">
+                                                            <table>
+                                                                <tr>
+                                                                    <td>
+                                                                        Frais de soumission
+                                                                    </td>
+                                                                    <td> AR 3.00</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                                <input type="checkbox" value="option1">
+                                                                                Frais
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td> AR 5.00</td>
+                                                                </tr>
+                                                                <tfoot>
+                                                                    <tr>
+                                                                        <td>Total</td>
+                                                                        <td> AR 5.00</td>
+                                                                    </tr>
+                                                                </tfoot>
+                                                            </table>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-credit-card"></i> Payer avec une carte de crédit</a></li>
+                                                            <li><a href="#"><i class="fa fa-paypal"></i> Payer avec Mvola</a></li>
+                                                            <li><a href="#"><i class="fa fa-paypal"></i> Payer avec Orangemoney</a></li>
+                                                            <li><a href="#"><i class="fa fa-retweet"></i>Payer avec Airtelmoney</a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+								
+                                <div class="item-wrap">
+                                    <div class="media my-property">
+                                        <div class="media-left">
+                                            <div class="figure-block">
+                                                <figure class="item-thumb">
+                                                    <span class="label-featured label label-success">En vedette</span>
+                                                    <a href="#">
+                                                        <img src="http://placehold.it/150x110" alt="thumb">
+                                                    </a>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="media-body media-middle">
+                                            <div class="my-description">
+                                                <h4 class="my-heading"><a href="#"><span class="label label-success">PAYÉ</span> Appartement</a></h4>
+                                                <p class="address">Mahamasina</p>
+                                                <p class="status"><strong>Status:</strong> à vendre <strong>Prix:</strong>  AR 350,000 / 2,650m<sup>2</sup></p>
+                                            </div>
+                                            <div class="my-actions">
+                                                <div class="btn-group">
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-edit"></i></a>
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Remove"><i class="fa fa-close"></i></a>
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Book"><i class="fa fa-book"></i></a>
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Star"><i class="fa fa-star"></i></a>
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Upload"><i class="fa fa-upload"></i></a>
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Chart"><i class="fa fa-area-chart"></i></a>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <button class="pay-btn action-btn">Payez<i class="fa fa-angle-down"></i></button>
+                                                    <div class="dropdown-menu">
+                                                        <div class="pay-options">
+                                                            <table>
+                                                                <tr>
+                                                                    <td>
+                                                                        Frais de sousmission
+                                                                    </td>
+                                                                    <td>$3.00</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                                <input type="checkbox" value="option1">
+                                                                                Frais
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td> AR 5.00</td>
+                                                                </tr>
+                                                                <tfoot>
+                                                                <tr>
+                                                                    <td>Total</td>
+                                                                    <td> AR 5.00</td>
+                                                                </tr>
+                                                                </tfoot>
+                                                            </table>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-credit-card"></i> Payer avec une carte de crédit</a></li>
+                                                            <li><a href="#"><i class="fa fa-paypal"></i> Payer avec Mvola</a></li>
+                                                            <li><a href="#"><i class="fa fa-paypal"></i> Payer avec Orangemoney</a></li>
+                                                            <li><a href="#"><i class="fa fa-retweet"></i>Payer avec Airtelmoney</a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+								
+                                 <div class="item-wrap">
+                                    <div class="media my-property">
+                                        <div class="media-left">
+                                            <div class="figure-block">
+                                                <figure class="item-thumb">
+                                                    <span class="label-featured label label-success">En vedette</span>
+                                                    <a href="#">
+                                                        <img src="http://placehold.it/150x110" alt="thumb">
+                                                    </a>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="media-body media-middle">
+                                            <div class="my-description">
+                                                <h4 class="my-heading"><a href="#"><span class="label label-success">PAYÉ</span> Appartement</a></h4>
+                                                <p class="address">Mahamasina</p>
+                                                <p class="status"><strong>Statu:</strong> à vendre <strong>Prix:</strong>  AR 350,000 / 2,650m<sup>2</sup></p>
+                                            </div>
+                                            <div class="my-actions">
+                                                <div class="btn-group">
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-edit"></i></a>
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Remove"><i class="fa fa-close"></i></a>
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Book"><i class="fa fa-book"></i></a>
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Star"><i class="fa fa-star"></i></a>
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Upload"><i class="fa fa-upload"></i></a>
+                                                    <a href="#" class="action-btn" data-toggle="tooltip" data-placement="top" title="Chart"><i class="fa fa-area-chart"></i></a>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <button class="pay-btn action-btn">Payez<i class="fa fa-angle-down"></i></button>
+                                                    <div class="dropdown-menu">
+                                                        <div class="pay-options">
+                                                            <table>
+                                                                <tr>
+                                                                    <td>
+                                                                        Frais de sousmission
+                                                                    </td>
+                                                                    <td>$3.00</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                                <input type="checkbox" value="option1">
+                                                                                Frais
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td> AR 5.00</td>
+                                                                </tr>
+                                                                <tfoot>
+                                                                <tr>
+                                                                    <td>Total</td>
+                                                                    <td> AR 5.00</td>
+                                                                </tr>
+                                                                </tfoot>
+                                                            </table>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-credit-card"></i> Payer avec une carte de crédit</a></li>
+                                                            <li><a href="#"><i class="fa fa-paypal"></i> Payer avec Mvola</a></li>
+                                                            <li><a href="#"><i class="fa fa-paypal"></i> Payer avec Orangemoney</a></li>
+                                                            <li><a href="#"><i class="fa fa-retweet"></i>Payer avec Airtelmoney</a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <!--start Pagination-->
+                    <div class="pagination-main">
+                        <ul class="pagination">
+                            <li class="disabled"><a aria-label="Previous" href="#"><span aria-hidden="true"><i class="fa fa-angle-left"></i></span></a></li>
+                            <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a aria-label="Next" href="#"><span aria-hidden="true"><i class="fa fa-angle-right"></i></span></a></li>
+                        </ul>
+                    </div>
+                    <!--start Pagination-->
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--end section page body-->
+
+    <!--start footer section-->
+    <footer class="footer-v2">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="footer-widget widget-about">
+                            <div class="widget-top">
+                                <h3 class="widget-title">À propos du site</h3>
+                            </div>
+                            <div class="widget-body">
+                                <p>Ma Maison</p>
+                                <p class="read"><a href="about-us.html">Lire la suite <i class="fa fa-caret-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-widget widget-contact">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Nous contacter</h3>
+                            </div>
+                            <div class="widget-body">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-location-arrow"></i>Mahamasinba</li>
+                                    <li><i class="fa fa-phone"></i>+231 032 54 953 67 </li>
+                                    <li><i class="fa fa-envelope-o"></i> <a href="#">info@mamaison.mg</a></li>
+                                </ul>
+                                <p class="read"><a href="contact-us.html">Nous contacter<i class="fa fa-caret-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="footer-widget widget-newsletter">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Newsletter</h3>
+                            </div>
+                            <div class="widget-body">
+                                <form>
+                                    <div class="table-list">
+                                        <div class="form-group table-cell">
+                                            <div class="input-email input-icon">
+                                                <input class="form-control" placeholder="Entrer votre Email">
+                                            </div>
+                                        </div>
+                                        <div class="table-cell">
+                                            <button class="btn btn-primary">Soumettre</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <p>Ma Maison est un site immobilier.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3">
+                        <div class="footer-col">
+                            <p>Ma maison © Tous  droits  réservés</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-5">
+                        <div class="footer-col">
+                            <div class="navi">
+                                <ul id="footer-menu" class="">
+                                    <li><a href="private.html">Vie Privée</a></li>
+                                    <li><a href="tearm-condition.html">Termes et conditions</a></li>
+                                    <li><a href="Contact-us.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="footer-col foot-social">
+                            <p>
+                                Nous suivre sur
+                                <a href="#"><i class="fa fa-facebook-square" id="faclasse"></i></a>
+                                <a href="#" ><i class="fa fa-twitter-square" id="faclasse" ></i></a>
+                                <a href="#"><i class="fa fa-google-plus-square" id="faclasse" ></i></a>
+                                <a href="#" ><i class="fa fa-linkedin-square" id="faclasse" ></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end footer section-->
+
+    <!--Start Scripts-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
+

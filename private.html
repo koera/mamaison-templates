@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ma Maison/private</title>
+    <!--Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Houzez HTML5 Template">
+    <meta name="description" content="Houzez HTML5 Template">
+    <meta name="author" content="Favethemes">
+    <meta name="theme-color" content="#ffffff">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-select.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/mediaqueries.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!--start header section header v1-->
+    <header id="header-section" class="header-section-4 nav-left hidden-sm hidden-xs" data-sticky="1">
+        <div class="container">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="homepage.html">
+                        <img src="images/mamaison2.png" alt="logo">
+                    </a>
+                </div>
+                <nav class="navi main-nav">
+                    <ul>
+                        <li><a href="index.html">à VENDRE</a>
+                            <ul class="sub-menu">
+                                <li><a href="home-splash.html">MA MAISON</a></li>
+                                <li><a href="home-splash.html">APPARTEMENT</a></li>
+                                <li><a href="#">PROPPRIETE</a></li>
+                                <li><a href="#">COMMERCIALES</a>
+                                    <li><a href="#">TERRAINS</a>
+                                    </li>
+                            </ul>
+                            </li>
+                            <li><a href="#">à LOUER</a>
+                                <ul class="sub-menu">
+                                    <li><a href="home-splash.html">Ma maison</a></li>
+                                    <li><a href="home-splash.html">Appartement</a></li>
+                                    <li><a href="#">Propriété</a></li>
+                                    <li><a href="#">Commerciales</a>
+                                        <li><a href="#">Terrains</a>
+                                        </li>
+                                </ul>
+                                </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-right">
+                <div class="user">
+                    <a href="#" >Se connecter</a>
+                    <a href="#" > Créer un compte</a>
+                    <a href="add-new-property.html" class="btn btn-default">Publier votre propriété</a>
+                </div>
+            </div>
+        </div>
+    </header>
+	
+    <div class="header-mobile visible-sm visible-xs">
+        <div class="container">
+            <!--start mobile nav-->
+            <div class="mobile-nav">
+                <span class="nav-trigger"><i class="fa fa-navicon"></i></span>
+                <div class="nav-dropdown main-nav-dropdown"></div>
+            </div>
+            <!--end mobile nav-->
+            <div class="header-logo">
+                <a href="index.html"><img src="images/mamaison2.png" alt="logo"></a>
+            </div>
+            <div class="header-user">
+                <div class="user">
+                    <a href="#" data-toggle="modal" data-target="#pop-login"><i class="fa fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end header section header v1-->
+
+    <!-- popup start -->
+    <div class="modal fade" id="pop-login" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <ul class="login-tabs">
+                        <li class="active">Se connecter</li>
+                        <li>S'enregistrer</li>
+                    </ul>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+
+                </div>
+                <div class="modal-body login-block">
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active">
+                            <div class="message">
+                                <p class="error text-danger"><i class="fa fa-close"></i> Vous n'êtes pas Connectés</p>
+                                <p class="success text-success"><i class="fa fa-check"></i> Vous n'êtes pas Connectés</p>
+                            </div>
+                            <form>
+                                <div class="form-group field-group">
+                                    <div class="input-user input-icon">
+                                        <input placeholder="Utilisateur">
+                                    </div>
+                                    <div class="input-email input-icon">
+                                        <input placeholder="Adresse E-mail">
+                                    </div>
+                                </div>
+                                <div class="forget-block clearfix">
+                                    <div class="form-group pull-left">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox"> Se souvenir de moi
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group pull-right">
+                                        <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#pop-reset-pass">Mots de passe oublié</a>
+                                    </div>
+                                </div>
+
+                                <div class="btn btn-primary btn-block">Se connecter</div>
+                            </form>
+                            <hr>
+                            <a href="#" class="btn btn-social btn-bg-facebook btn-block"><i class="fa fa-facebook"></i>Se connecter avec facebook</a>
+                        </div>
+                        <div class="tab-pane fade">
+                            <form>
+                                <div class="form-group field-group">
+                                    <div class="input-user input-icon">
+                                        <input placeholder="Utilisateur">
+                                    </div>
+
+                                    <div class="input-email input-icon">
+                                        <input placeholder="Adresse E-mail">
+                                    </div>
+                                    <div class="input-mdp input-icon">
+                                        <input placeholder="Mots de passe">
+                                    </div>
+                                    <div class="input-cmdp input-icon">
+                                        <input placeholder="confirmé le mots de passe">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> Je suis d'accord avec vos <a href="#"> termes et conditions.</a>.
+                                        </label>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary btn-block">S'inscrire</button>
+                            </form>
+                            <hr>
+
+                            <a href="#" class="btn btn-social btn-bg-facebook btn-block"><i class="fa fa-facebook"></i>Se connecter avec facebook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="pop-reset-pass" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <ul class="login-tabs">
+                        <li class="active">Réinitialiser le mot de passe</li>
+                    </ul>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+                </div>
+                <div class="modal-body">
+                    <p>Veuillez saisir votre identifiant ou adresse mail. Vous recevrez un lien pour créer un nouveau mot de passe par e-mail.</p>
+                    <form>
+                        <div class="form-group">
+                            <div class="input-user input-icon">
+                                <input placeholder="Entrez votre nom d'utilisateur ou votre email" class="form-control">
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-block">Obtenir un nouveau mot de passe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- popup end -->
+	
+	<!-- section start -->
+	<section class="advanced-search advance-search-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <form>
+                        <div class="form-group search-long">
+                            <div class="search">
+                                <div class="input-search input-icon">
+                                    <input class="form-control" type="text" placeholder="Entrez une adresse, une ville, une rue ou un zip">
+                                </div>
+                                <select name="location" class="selectpicker bs-select-hidden" data-live-search="false" data-live-search-style="begins">
+                                    <option value="">Toutes les villes</option>
+                                    <option value="chicago">Antananarivo</option>
+                                    <option value="los-angeles">Antsirabe</option>
+                                    <option value="miami">Diego</option>
+                                    <option value="new-york">Farafangana</option>
+                                </select>
+                                <select name="area" class="selectpicker bs-select-hidden" data-live-search="false" data-live-search-style="begins">
+                                    <option value="">Toutes les zones</option>
+                                    <option value="beverly-hills">Mahamasina</option>
+                                    <option value="brickell">Analakely</option>
+                                    <option value="brickyard">Besarety</option>
+                                    <option value="bronx">Andravohangy</option>
+                                    <option value="brooklyn">Ampasapiito</option>
+                                    <option value="coconut-grove">Akadimbahoka</option>
+                                    <option value="downtown">Andrepamaky</option>
+                                    <option value="eagle-rock">Amboanjobe</option>
+                                    <option value="englewood">Ankarobato</option>
+                                    <option value="hermosa">Ankasina</option>
+                                    <option value="hollywood">Ampitatafika</option>
+                                    <option value="lincoln-park">Itaosy</option>
+                                    <option value="manhattan">Ankatso</option>
+                                    <option value="midtown">Ampasika</option>
+                                    <option value="queens">Keniheny</option>
+                                    <option value="westwood">Ambatolampy</option>
+                                    <option value="wynwood">Ibity</option>
+                                </select>
+                                <div class="advance-btn-holder">
+                                    <button class="advance-btn btn" type="button"><i class="fa fa-gear"></i>Avance</button>
+                                </div>
+                            </div>
+                            <div class="search-btn">
+                                <button class="btn btn-primary">Go</button>
+                            </div>
+                        </div>
+                        <div class="advance-fields">
+                            <div class="row">
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Status">
+                                            <option>Statu 1</option>
+                                            <option>Statu 2</option>
+                                            <option>Statu 3</option>
+                                            <option>Statu 4</option>
+                                            <option>Statu 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Property Type">
+                                            <option>Type de propriété 1</option>
+                                            <option>Type de propriété 2</option>
+                                            <option>Type de propriété 3</option>
+                                            <option>Type de propriété 4</option>
+                                            <option>Type de propriété 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Beds">
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Baths">
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Min Price">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Max Price">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Min Areas (Sqft)">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Max Areas (Sqft)">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-xs-12 features-list">
+
+                                    <label class="text-uppercase title">Autres caractéristiques</label>
+                                    <div class="clearfix"></div>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option1"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option2"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option3"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option1"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option2"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option3"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option1"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option2"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option3"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option1"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option2"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option3"> Caractéristique
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end advanced search section-->
+	
+	<section class="advanced-search-mobile visible-xs visible-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <form>
+                        <div class="single-search-wrap">
+                            <div class="single-search-inner advance-btn">
+                                <button class="table-cell text-left" type="button"><i class="fa fa-gear"></i></button>
+                            </div>
+                            <div class="single-search-inner single-search">
+
+                                <input type="text" class="form-control table-cell" name="search" placeholder="Chercher">
+                            </div>
+                            <div class="single-search-inner single-seach-btn">
+                                <button class="table-cell text-right" type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="advance-fields">
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Location">
+                                            <option>Location 1</option>
+                                            <option>Location 2</option>
+                                            <option>Location 3</option>
+                                            <option>Location 4</option>
+                                            <option>Location 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Status">
+                                            <option>Statu 1</option>
+                                            <option>Statu 2</option>
+                                            <option>Statu 3</option>
+                                            <option>Statu 4</option>
+                                            <option>Statu 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Property Type">
+                                            <option>Type de propriété 1</option>
+                                            <option>Type de propriété 2</option>
+                                            <option>Type de propriété 3</option>
+                                            <option>Type de propriété 4</option>
+                                            <option>Type de propriété 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Beds">
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Baths">
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Min (Sqft)">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Max Areas (Sqft)">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-xs-12">
+                                    <div class="range-advanced-main">
+                                        <div class="range-text">
+                                            <input type="hidden" class="min-price-range-hidden range-input" readonly >
+                                            <input type="hidden" class="max-price-range-hidden range-input" readonly >
+                                            <p><span class="range-title">Gamme de prix:</span> from <span class="min-price-range"></span> to <span class="max-price-range"></span></p>
+                                        </div>
+                                        <div class="range-wrap">
+                                            <div class="price-range-advanced"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+                                    <button type="submit" class="btn btn-secondary btn-block"><i class="fa fa-search pull-left"></i> Chercher</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end advanced search section-->
+
+    <!--start section page body-->
+    <section id="section-body">
+        <div class="container">
+            <div class="page-title breadcrumb-top">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+                            <li class="active">Confidentialité"</li>
+                        </ol>
+                        <div class="page-title-left">
+                            <h2>Confidentialité</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 container-contentbar">
+                    <div class="page-main">
+                        <div class="article-detail">
+                            <h3>Mentions légales et conditions d'utilisation</h3>
+                            <strong>Veuillez lire attentivement ces termes et conditions car ils contiennent des informations importantes sur vos droits et obligations lors de l'utilisation de MaMaison.mg </strong>
+
+                            <br><br>
+                            <h2>Conditions d'utilisation</h2>
+                            <h2>Introduction</h2>
+                            <ol>
+                                <li>Notre siège se situe à Mahamasina près de Bazar de quartier.</li>
+                                <li>Nous fournissons ce site Web, plus connu sous le nom de «site», pour la commodité des acheteurs, locataires, investisseurs et navigateurs intéressés par des biens immobiliers, et collectons du contenu sous forme de publicités de vendeurs privés, agents immobiliers, agents de location, promoteurs
+                                    ainsi que les parties liées, pour afficher les propriétés qu'ils commercialisent. Nous ne sommes pas des agents immobiliers nous-mêmes.</li>
+                                <li>En dehors du site, nous fournissons également une collection croissante de sites Web avec un contenu de propriété qui inclura le même contenu ou similaire à notre site. Actuellement, ces sites Web affiliés ou en marque blanche comprennent;
+                                    Propriétés standard <a>www.MaMaison.mg</a></li>
+                                <li>Ces termes et conditions sont réputés inclure notre politique de confidentialité et sont collectivement appelés «ces termes».</li>
+                                <li>Lorsque vous utilisez ce site, vous acceptez d'être lié par ces termes et conditions. Si vous n'acceptez pas d'être lié par ces conditions, vous ne pouvez pas utiliser ce site.</li>
+                                <li>Certaines utilisations de ce site sont interdites et constituent une mauvaise utilisation de nos systèmes et du site.</li>
+                                <li>Vous pouvez imprimer et conserver une copie de ces conditions. Ils constituent un accord légal entre nous et ne peuvent être modifiés qu'avec notre consentement. Nous pouvons modifier ces Conditions à notre discrétion en les changeant sur le Site. La version alors en vigueur de ces Conditions s'appliquera chaque fois que vous utiliserez ce Site.</li>
+                                <li>En consultant les pages qui constituent ce site, une personne devient un «utilisateur» et accepte les termes et conditions d'utilisation ci-dessous:</li>
+
+                            </ol>
+                            <h2>Vie privé</h2>
+                            <ol>
+                                <li>Nous souscrivons aux principes de collecte électronique des renseignements personnels décrits dans le Règlement de 2017 sur les communications à Madagascar (transactions électroniques). Toutes les communications de notre part fourniront un lien hypertexte clair dans lequel vous pourrez annuler votre autorisation
+                                    ou vous désinscrire. Si vous avez un problème avec ce processus, appelez le +261 00 000 00 pour obtenir de l'aide.</li>
+                                <li>	Nous entendons utiliser les données personnelles ou organisationnelles que vous nous soumettez par e-mail, téléphone ou formulaires de soumission sur ce site uniquement pour répondre à toute demande spécifique d'informations que vous avez faite sur le site et, à l'exception d'éventuelles communications et utilisations de ces informations en termes de 3 et 4 ci-dessous, n'utilisera pas cette information d'une autre manière ou ne la divulguera à aucun tiers sans votre consentement écrit exprès, à moins que la loi ne l'y oblige.</li>
+
+                                <li>	Si nous vous offrons ou fournissons un service fourni en notre nom par un tiers, nous pouvons être amenés à vous transmettre vos informations afin de vous fournir le service. En utilisant ce site, vous consentez à ce que nous fournissions vos informations aux tiers autorisés par nous à fournir ces services. Nous pouvons également utiliser des tiers pour fournir des services en notre nom, ce qui peut inclure le traitement (mais pas l'utilisation de vos informations). Dans tous les cas, nous ne transmettrons pas vos données à quiconque n'est pas également inscrit à la Loi sur la protection des données ou n'est pas soumis
+                                    à ces dispositions ou à des dispositions similaires dans notre contrat avec eux, et nous n'autoriserons pas le tiers à utiliser vos informations commercialement sans votre consentement.</li>
+                                <li>	À la suite de votre communication électronique ou autre avec nous, nous pouvons demander la permission d'envoyer des messages électroniques ou d'autres communications de nature commerciale à vous, autorisation qui doit être explicitement accordée par vous avant que nous envoyions de telles communications. Nous pouvons également utiliser ces informations pour compiler des profils à des fins statistiques et utiliser ces profils dans le cadre
+                                    de nos activités, mais ces profils ou données statistiques ne pourront jamais être liés à votre profil spécifique et à vos coordonnées par un tiers.</li>
+                                <li>	Comme de nombreux sites Web, nous utilisons des «cookies» pour nous permettre de personnaliser vos visites sur ce site Web, de simplifier la procédure de connexion,
+                                    de suivre vos préférences et de suivre l'utilisation de ce site Web. Les cookies sont de petites informations stockées sur le disque dur de votre ordinateur par votre navigateur.
+                                    Votre navigateur aura la possibilité d'empêcher les sites Web utilisant des cookies, mais veuillez noter que cela peut réduire la fonctionnalité de ce site et d'autres sites Web.</li>
+
+                            </ol>
+                            <h2>Copyright</h2>
+                            <ol>
+                                <li>Tout le contenu de ce site Web, y compris tous les graphiques, textes, icônes, liens hypertextes, informations privées, dessins, marques, logiciels, bases de données et accords,
+                                    est la propriété intellectuelle de MaMaison.mg et est protégé par la loi locale et internationale traitant du droit d'auteur et des droits de propriété intellectuelle.</li>
+                                <li>Tous les droits sur ce contenu sont réservés, et ce contenu ne peut être reproduit sans l'autorisation expresse et écrite de notre part. Pour obtenir l'autorisation pour l'utilisation de tout contenu sur ce site,
+                                    s'il vous plaît contacter le +261 000 000 00. Tous les droits non expressément accordés en vertu de ces termes et conditions ou par autorisation spéciale sont réservés.</li>
+                                <li>
+                                    Aucune entreprise, personne ou site Web ne peut encadrer ce site ou l'une des pages de ce site de quelque manière que ce soit sans l'autorisation écrite de notre part.</li>
+
+
+                            </ol>
+                            <h2>Hyperliens</h2>
+                            <ol>
+                                <li>Aucune personne, entreprise ou site Web ne peut accéder à une page de ce site sans avoir préalablement demandé l'autorisation de le faire par écrit.</li>
+
+                                <li>Ce site contient des liens vers des sites Web exploités par des tiers. Nous n'avons aucun contrôle sur leur contenu individuel. Par conséquent, nous n'offrons aucune garantie ou représentation quant à l'exactitude ou à l'exhaustivité de toute information apparaissant en rapport avec des sites Web liés. Les liens sont pour votre commodité seulement.
+                                    Nous ne recommandons aucun produit ou service annoncé sur ces sites Web. Si vous décidez d'accéder à un site Web tiers lié à ce site, vous le faites à vos risques et périls.</li>
+                                <li>Les détails des propriétés disponibles sur ce site nous sont fournis par des tiers, des vendeurs privés et nos agents immobiliers affiliés pour votre information seulement. Nous ne pouvons pas vérifier ces détails et ne faisons donc aucune garantie ou représentation quant à leur exactitude ou leur exhaustivité. Si vous comptez sur ces détails, vous le faites à vos risques et périls</li>
+                            </ol>
+                            <h2>Liste noire</h2>
+                            <ol>
+                                <li>1.	Nous nous réservons le droit de mettre en liste noire les utilisateurs de ce site et / ou de restreindre ou bloquer leur accès ou utilisation de tous et de tous les éléments de nos services, de façon permanente ou temporaire à notre seule discrétion. Tout utilisateur doit être informé et ne doit pas tenter d'utiliser ce site sous un autre nom ou par le biais d'un autre utilisateur.</li>
+
+                            </ol>
+                            <h2>Avertissement</h2>
+                            <ol>
+                                <li>1.	Nous, les concepteurs de ce site et tous les agents ou représentants du client ne seront pas responsables de tout dommage, perte ou responsabilité, découlant de l'utilisation ou de l'impossibilité d'utiliser ce site web ou les services, contenus ou informations fournis sur et à travers ce site web.</li>
+
+                                <li>2.	Nous ne faisons aucune déclaration ou garantie expresse ou implicite que le contenu et le service disponibles sur ce site Web sont exempts d'erreurs ou d'omissions ou que le service sera 100% ininterrompu et sans erreur. Les utilisateurs sont encouragés à signaler les éventuels dysfonctionnements et erreurs à (tapez le mot info puis) MaMaison.mg. Nous ne serons pas responsables si nous ne pouvons pas traiter vos détails en raison de circonstances hors de notre contrôle raisonnable.</li>
+
+                                <li>3.	Ce site web est disponible sur Internet pour tout utilisateur ayant un accès, pour voir «tel quel», et n'a pas été compilé ou conçu pour répondre aux exigences individuelles de chaque utilisateur. Nous ne serons pas tenus responsables de tout inconvénient, perte ou dommage qu'un utilisateur pourrait subir du fait d'un manquement à ces exigences. Les utilisateurs sont encouragés à donner leurs commentaires. </li>
+                            </ol>
+                            <h2>Sécurité</h2>
+                            <ol>
+                                <li>"Contenu": "Toute personne morale qui livre ou tente de livrer un code nuisible à ce site Web, d'accéder sans autorisation à une page de ce site Web, d'altérer le contenu ou les pages constituant ce site Web ou de dupliquer ces pages. ou le contenu doit être poursuivi dans toute la mesure de la loi, et des dommages civils doivent être réclamés dans le cas où nous subissons tout dommage ou perte à la suite de ces actions.</li>
+                                <li>Bien que nous nous efforcions de veiller à ce que tout matériel disponible pour téléchargement à partir de ce site ne soit pas contaminé de quelque façon que ce soit, nous ne garantissons pas que ce matériel sera exempt d'infection, de virus et / ou de code similaire</li>
+
+                            </ol>
+
+                            <h2>Accord entier</h2>
+                            <ol>
+                                <li>Cet accord constitue l'intégralité de l'accord entre nous et l'utilisateur, et aucune des conditions qui ne sont pas expressément énoncées dans cet accord peut être implicite par l'une ou l'autre partie.</li>
+                                <li>Nous nous réservons le droit de modifier cet accord ou toute partie de celui-ci
+                                    à tout moment sans préavis, ces changements étant réputés entrer en vigueur dès qu'ils sont incorporés dans cet accord et visibles sur le site.</li>
+                            </ol>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-md-offset-0 col-sm-offset-3 container-sidebar">
+                    <aside id="sidebar">
+                        <div class="widget widget-recommend">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Nous recommandons</h3>
+                            </div>
+                            <div class="widget-body">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="item-thumb">
+                                            <a class="hover-effect" href="#">
+                                                <img alt="thumb" src="http://placehold.it/100x75" width="100" height="75">
+                                            </a>
+                                            <figcaption class="thumb-caption">
+
+                                                <ul class="list-unstyled actions">
+                                                    <li>
+                                                        <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Photos">
+                                                            <i class="fa fa-camera"></i> <span class="blue">12</span>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Appartement Oceanview</a></h3>
+                                        <h4>$350,000</h4>
+                                        <div class="amenities">
+                                            <p>3 beds • 2 baths • 1,238 sqft</p>
+                                            <p>Maison unifamiliale</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="item-thumb">
+                                            <a class="hover-effect" href="#">
+                                                <img alt="thumb" src="http://placehold.it/100x75" width="100" height="75">
+                                            </a>
+                                            <figcaption class="thumb-caption">
+
+                                                <ul class="list-unstyled actions">
+                                                    <li>
+                                                        <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Photos">
+                                                            <i class="fa fa-camera"></i> <span class="blue">12</span>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Appartement Oceanview</a></h3>
+                                        <h4>$350,000</h4>
+                                        <div class="amenities">
+                                            <p>3 beds • 2 baths • 1,238 sqft</p>
+                                            <p>Maison unifamiliale</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="item-thumb">
+                                            <a class="hover-effect" href="#">
+                                                <img alt="thumb" src="http://placehold.it/100x75" width="100" height="75">
+                                            </a>
+                                            <figcaption class="thumb-caption">
+
+                                                <ul class="list-unstyled actions">
+                                                    <li>
+                                                        <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Photos">
+                                                            <i class="fa fa-camera"></i> <span class="blue">12</span>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Appartement Oceanview</a></h3>
+                                        <h4>$350,000</h4>
+                                        <div class="amenities">
+                                            <p>3 beds • 2 baths • 1,238 sqft</p>
+                                            <p>Maison unifamiliale</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget widget-rated">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Most Rated Properties</h3>
+                            </div>
+                            <div class="widget-body">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="item-thumb">
+                                            <a class="hover-effect" href="#">
+                                                <img alt="thumb" src="http://placehold.it/100x75" width="100" height="75">
+                                            </a>
+                                            <figcaption class="thumb-caption">
+
+                                                <ul class="list-unstyled actions">
+                                                    <li>
+                                                        <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Photos">
+                                                            <i class="fa fa-camera"></i> <span class="blue">12</span>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Appartement Oceanview</a></h3>
+                                        <div class="rating">
+                                            <span class="star-text-left">$350,000</span><span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
+                                        </div>
+                                        <div class="amenities">
+                                            <p>3 beds • 2 baths • 1,238 sqft</p>
+                                            <p>Maison unifamiliale</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="item-thumb">
+                                            <a class="hover-effect" href="#">
+                                                <img alt="thumb" src="http://placehold.it/100x75" width="100" height="75">
+                                            </a>
+                                            <figcaption class="thumb-caption">
+
+                                                <ul class="list-unstyled actions">
+                                                    <li>
+                                                        <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Photos">
+                                                            <i class="fa fa-camera"></i> <span class="blue">12</span>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Appartement Oceanview</a></h3>
+
+                                        <div class="rating">
+                                            <span class="star-text-left">$350,000</span><span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
+                                        </div>
+
+
+                                        <div class="amenities">
+                                            <p>3 beds • 2 baths • 1,238 sqft</p>
+                                            <p>Maison unifamiliale</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="item-thumb">
+                                            <a class="hover-effect" href="#">
+                                                <img alt="thumb" src="http://placehold.it/100x75" width="100" height="75">
+                                            </a>
+                                            <figcaption class="thumb-caption">
+
+                                                <ul class="list-unstyled actions">
+                                                    <li>
+                                                        <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Photos">
+                                                            <i class="fa fa-camera"></i> <span class="blue">12</span>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Appartement Oceanview</a></h3>
+
+                                        <div class="rating">
+                                            <span class="star-text-left">$350,000</span><span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
+                                        </div>
+
+
+                                        <div class="amenities">
+                                            <p>3 beds • 2 baths • 1,238 sqft</p>
+                                            <p>Maison unifamiliale</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget widget-categories">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Catégories de propriété</h3>
+                            </div>
+                            <div class="widget-body">
+                                <ul>
+                                    <li><a href="">Appartement</a> <span class="cat-count">(30)</span></li>
+                                    <li><a href="">Condo</a> <span class="cat-count">(30)</span></li>
+                                    <li><a href="">Maison unifamiliale</a> <span class="cat-count">(30)</span></li>
+                                    <li><a href="">Villa</a> <span class="cat-count">(30)</span></li>
+                                    <li><a href="">Studio</a> <span class="cat-count">(30)</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                       <!-- <div class="widget widget-pages">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Pages</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Home</a>
+                                    <ul class="children">
+                                        <li><a href="#">Clearing Floats</a></li>
+                                        <li><a href="#">Page Image Alignment</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">About Houzez</a></li>
+                                <li><a href="#">Our Agents</a></li>
+                                <li><a href="#">Create Listing</a></li>
+                                <li><a href="#">Faq</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="widget widget_archive">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Archives</h3></div>
+                            <ul>
+                                <li><a href="#">March 2016</a>&nbsp;(10)</li>
+                                <li><a href="#">January 2016</a>&nbsp;(1)</li>
+                                <li><a href="#">January 2013</a>&nbsp;(5)</li>
+                                <li><a href="#">March 2012</a>&nbsp;(5)</li>
+                            </ul>
+                        </div>
+                        <div class="widget widget_meta">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Meta</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Site Admin</a></li>
+                                <li><a href="#">Log out</a></li>
+                                <li><a href="#">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+                                <li><a href="#">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+                            </ul>
+                        </div>-->
+                        <div class="widget widget-reviews">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Dernières critiques</h3>
+                            </div>
+                            <div class="widget-body">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object img-circle" src="http://placehold.it/50x50" alt="Thumb" width="50" height="50">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Titre de propriété</a></h3>
+                                        <div class="rating">
+                                            <span class="bottom-ratings"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Etiam
+                                            risus tortor, accumsan at nisi et,
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object img-circle" src="http://placehold.it/50x50" alt="Thumb" width="50" height="50">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Titre de propriété</a></h3>
+                                        <div class="rating">
+                                            <span class="bottom-ratings"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Etiam
+                                            risus tortor, accumsan at nisi et,
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end section page body-->
+	<!-- section end -->
+
+    <!--start footer section-->
+    <footer class="footer-v2">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="footer-widget widget-about">
+                            <div class="widget-top">
+                                <h3 class="widget-title">À propos du site</h3>
+                            </div>
+                            <div class="widget-body">
+                                <p>Ma Maison</p>
+                                <p class="read"><a href="about-us.html">Lire la suite <i class="fa fa-caret-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-widget widget-contact">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Nous contacter</h3>
+                            </div>
+                            <div class="widget-body">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-location-arrow"></i>Mahamasinba</li>
+                                    <li><i class="fa fa-phone"></i>+231 032 54 953 67 </li>
+                                    <li><i class="fa fa-envelope-o"></i> <a href="#">info@mamaison.mg</a></li>
+                                </ul>
+                                <p class="read"><a href="contact-us.html">Nous contacter<i class="fa fa-caret-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="footer-widget widget-newsletter">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Newsletter</h3>
+                            </div>
+                            <div class="widget-body">
+                                <form>
+                                    <div class="table-list">
+                                        <div class="form-group table-cell">
+                                            <div class="input-email input-icon">
+                                                <input class="form-control" placeholder="Entrer votre Email">
+                                            </div>
+                                        </div>
+                                        <div class="table-cell">
+                                            <button class="btn btn-primary">Soumettre</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <p>Ma Maison est un site immobilier.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3">
+                        <div class="footer-col">
+                            <p>Ma maison © Tous  droits  réservés</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-5">
+                        <div class="footer-col">
+                            <div class="navi">
+                                <ul id="footer-menu" class="">
+                                    <li><a href="private.html">Vie Privée</a></li>
+                                    <li><a href="tearm-condition.html">Termes et conditions</a></li>
+                                    <li><a href="Contact-us.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="footer-col foot-social">
+                            <p>
+                                Nous suivre sur
+                                <a href="#"><i class="fa fa-facebook-square" id="faclasse"></i></a>
+                                <a href="#" ><i class="fa fa-twitter-square" id="faclasse" ></i></a>
+                                <a href="#"><i class="fa fa-google-plus-square" id="faclasse" ></i></a>
+                                <a href="#" ><i class="fa fa-linkedin-square" id="faclasse" ></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end footer section-->
+
+    <!--Start Scripts-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

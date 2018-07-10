@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ma Maison / Landing-page</title>
+    <!--Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Favethemes">
+    <meta name="theme-color" content="#ffffff">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-select.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/mediaqueries.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!--start header section header v1-->
+    <header id="header-section" class="header-section-4 nav-left hidden-sm hidden-xs" data-sticky="1">
+        <div class="container">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/mamaison2.png" alt="logo">
+                    </a>
+                </div>
+                <nav class="navi main-nav">
+                    <ul>
+                        <li><a href="index.html">à VENDRE</a>
+                            <ul class="sub-menu">
+                                <li><a href="home-splash.html">MA MAISON</a></li>
+                                <li><a href="home-splash.html">APPARTEMENT</a></li>
+                                <li><a href="#">PROPPRIETE</a></li>
+                                <li><a href="#">COMMERCIALES</a>                                  
+                                <li><a href="#">TERRAINS</a>                                  
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">à LOUER</a>
+                             <ul class="sub-menu">
+                                <li><a href="home-splash.html">Ma maison</a></li>
+                                <li><a href="home-splash.html">Appartement</a></li>
+                                <li><a href="#">Propriété</a></li>
+                                <li><a href="#">Commerciales</a>                                  
+                                <li><a href="#">Terrains</a>                                  
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-right">
+                <div class="user">
+                    <a href="#" >Se connecter </a>
+                    <a href="#" > Créer un compte</a>
+                    <a href="add-new-property.html" class="btn btn-default">Publier votre propriété</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-mobile visible-sm visible-xs">
+        <div class="container">
+            <!--start mobile nav-->
+            <div class="mobile-nav">
+                <span class="nav-trigger"><i class="fa fa-navicon"></i></span>
+                <div class="nav-dropdown main-nav-dropdown"></div>
+            </div>
+            <!--end mobile nav-->
+            <div class="header-logo">
+                <a href="index.html"><img src="images/mamaison2.png" alt="logo"></a>
+            </div>
+            <div class="header-user">
+                <div class="user">
+                    <a href="#" data-toggle="modal" data-target="#pop-login"><i class="fa fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end header section header v1-->
+	
+	<!-- popup start -->
+		 <div class="modal fade" id="pop-login" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <ul class="login-tabs">
+                        <li class="active">Se connecter</li>
+                        <li>S'enregistrer</li>
+                    </ul>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+
+                </div>
+                <div class="modal-body login-block">
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active">
+                            <div class="message">
+                                <p class="error text-danger"><i class="fa fa-close"></i> Vous n'êtes pas Connectés</p>
+                                <p class="success text-success"><i class="fa fa-check"></i> Vous n'êtes pas Connectés</p>
+                            </div>
+                            <form>
+                                <div class="form-group field-group">
+                                    <div class="input-user input-icon">
+                                        <input placeholder="Utilisateur">
+                                    </div>
+                                    <div class="input-email input-icon">
+                                        <input placeholder="Adresse E-mail">
+                                    </div>
+                                </div>
+                                <div class="forget-block clearfix">
+                                    <div class="form-group pull-left">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox">
+                                                Se souvenir de moi
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group pull-right">
+                                        <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#pop-reset-pass">Mots de passe oublié</a>
+                                    </div>
+                                </div>
+
+                                <div class="btn btn-primary btn-block">Se connecter</div>
+                            </form>
+                            <hr>
+                            <a href="#" class="btn btn-social btn-bg-facebook btn-block"><i class="fa fa-facebook"></i>Se connecter avec facebook</a>
+                        </div>
+                        <div class="tab-pane fade">
+                            <form>
+                                <div class="form-group field-group">
+                                    <div class="input-user input-icon">
+                                        <input placeholder="Utilisateur">
+                                    </div>
+									
+                                    <div class="input-email input-icon">
+                                        <input placeholder="Adresse E-mail">
+                                    </div> 
+									<div class="input-mdp input-icon">
+                                        <input placeholder="Mots de passe">
+                                    </div> 
+									<div class="input-cmdp input-icon">
+                                        <input placeholder="confirmé le mots de passe">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">
+                                            Je suis d'accord avec vos <a href="#"> termes et conditions.</a>.
+                                        </label>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary btn-block">S'inscrire</button>
+                            </form>
+                            <hr>
+
+                            <a href="#" class="btn btn-social btn-bg-facebook btn-block"><i class="fa fa-facebook"></i>Se connecter avec facebook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+<div class="modal fade" id="pop-reset-pass" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <ul class="login-tabs">
+                    <li class="active">Réinitialiser le mot de passe</li>
+                </ul>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>Veuillez saisir votre identifiant ou adresse mail. Vous recevrez un lien pour créer un nouveau mot de passe par e-mail.</p>
+                <form>
+                    <div class="form-group">
+                        <div class="input-user input-icon">
+                            <input placeholder="Enter your username or email" class="form-control">
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-block">Obtenir un nouveau mot de passe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+	<!-- popup end -->
+
+   <section class="advanced-search advance-search-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <form>
+                        <div class="form-group search-long">
+                            <div class="search">
+                                <div class="input-search input-icon">
+                                    <input class="form-control" type="text" placeholder="Entrez une adresse, une ville, une rue ou un zip">
+                                </div>
+                                <select name="location" class="selectpicker bs-select-hidden" data-live-search="false" data-live-search-style="begins">
+                                    <option value="">Toutes les villes</option>
+                                    <option value="chicago">Antananarivo</option>
+                                    <option value="los-angeles">Antsirabe</option>
+                                    <option value="miami">Diego</option>
+                                    <option value="new-york">Farafangana</option>
+                                </select>
+                                <select name="area" class="selectpicker bs-select-hidden" data-live-search="false" data-live-search-style="begins">
+                                    <option value="">Toutes les zones</option>
+                                    <option value="beverly-hills">Mahamasina</option>
+                                    <option value="brickell">Analakely</option>
+                                    <option value="brickyard">Besarety</option>
+                                    <option value="bronx">Andravohangy</option>
+                                    <option value="brooklyn">Ampasapiito</option>
+                                    <option value="coconut-grove">Akadimbahoka</option>
+                                    <option value="downtown">Andrepamaky</option>
+                                    <option value="eagle-rock">Amboanjobe</option>
+                                    <option value="englewood">Ankarobato</option>
+                                    <option value="hermosa">Ankasina</option>
+                                    <option value="hollywood">Ampitatafika</option>
+                                    <option value="lincoln-park">Itaosy</option>
+                                    <option value="manhattan">Ankatso</option>
+                                    <option value="midtown">Ampasika</option>
+                                    <option value="queens">Keniheny</option>
+                                    <option value="westwood">Ambatolampy</option>
+                                    <option value="wynwood">Ibity</option>
+                                </select>
+                                <div class="advance-btn-holder">
+                                    <button class="advance-btn btn" type="button"><i class="fa fa-gear"></i>Avance</button>
+                                </div>
+                            </div>
+                            <div class="search-btn">
+                                <button class="btn btn-primary">Aller</button>
+                            </div>
+                        </div>
+                        <div class="advance-fields">
+                            <div class="row">
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Status">
+                                            <option>Status 1</option>
+                                            <option>Status 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Type de propriété">
+                                            <option>Type de propriété 1</option>
+                                            <option>Type de propriété 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Lits">
+                                            <option>01</option>
+                                            <option>02</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Chambre">
+                                            <option>01</option>
+                                            <option>02</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Min Prix">
+                                            <option> AR 100</option>
+                                            <option> AR 100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Max Prix">
+                                             <option> AR 100</option>
+                                            <option> AR 100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Min Zone (m²)">
+                                            <option> AR 100</option>
+                                            <option> AR 100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Max Zone (m²)">
+                                             <option> AR 100</option>
+                                            <option> AR 100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-xs-12 features-list">
+
+                                    <label class="text-uppercase title">Autre en vedette</label>
+                                    <div class="clearfix"></div>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option1"> En vedette
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end advanced search section-->
+	
+	<section class="advanced-search-mobile visible-xs visible-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <form>
+                        <div class="single-search-wrap">
+                            <div class="single-search-inner advance-btn">
+                                <button class="table-cell text-left" type="button"><i class="fa fa-gear"></i></button>
+                            </div>
+                            <div class="single-search-inner single-search">
+
+                                <input type="text" class="form-control table-cell" name="search" placeholder="Search">
+                            </div>
+                            <div class="single-search-inner single-seach-btn">
+                                <button class="table-cell text-right" type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="advance-fields">
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Localisation">
+                                            <option>Localisation 1</option>
+                                            <option>Localisation 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Status">
+                                            <option>Status 1</option>
+                                            <option>Status 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Type de propriétés">
+                                            <option>Type de propriétés 1</option>
+                                            <option>Type de propriétés 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Lits">
+                                            <option>01</option>
+                                            <option>02</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Chambres">
+                                            <option>01</option>
+                                            <option>02</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Min Zone (m²)">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Max Zone (m²)">
+                                            <option>AR 100</option>
+                                            <option> AR 100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-xs-12">
+                                    <div class="range-advanced-main">
+                                        <div class="range-text">
+                                            <input type="hidden" class="min-price-range-hidden range-input" readonly >
+                                            <input type="hidden" class="max-price-range-hidden range-input" readonly >
+                                            <p><span class="range-title">Echantillon des prix:</span> de <span class="min-price-range"></span> à <span class="max-price-range"></span></p>
+                                        </div>
+                                        <div class="range-wrap">
+                                            <div class="price-range-advanced"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+                                    <button type="submit" class="btn btn-secondary btn-block"><i class="fa fa-search pull-left"></i> Chercher</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end advanced search section-->
+
+    <!--start banner module-->
+    <div class="header-media">
+        <div id="banner-module" class="houzez-module banner-module">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 no-padding">
+                        <div id="banner-slider" class="owl-carousel owl-theme banner-slider">
+                            <div class="item">
+                                <div class="caption">
+                                    <div class="feature-label">En vedette</div>
+                                    <a href="#" class="btn btn-primary btn-detail">Détails <i class="fa fa-angle-right"></i></a>
+                                    <div class="item-body">
+                                        <div class="body-left">
+                                            <div class="price">
+                                                <h3> AR 450,000</h3><p class="rant">AR 2,800/m²</p>
+                                            </div>
+                                            <div class="info-row">
+                                                <h2 class="property-title"><a href="#">Appartement Moderne</a></h2>
+                                                <h4 class="property-location">Analakely</h4>
+                                            </div>
+                                            <div class="info-row amenities">
+                                                <p><span>Lits: 4</span><span>Chambres: 2</span><span>m²: 1200</span></p>                                                <p>Apartment</p>
+                                            </div>
+                                            <div class="info-row date">
+                                                <p><i class="fa fa-user"></i> <a href="#">Mahamasina</a></p>
+                                                <p><i class="fa fa-calendar"></i>il ya 4 mois</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="http://placehold.it/1423x603" width="1423" height="603" alt="Banner Image">
+                            </div>
+                            <div class="item">
+                                <div class="caption">
+                                    <div class="feature-label">En vedette</div>
+                                    <a href="#" class="btn btn-primary btn-detail">Details <i class="fa fa-angle-right"></i></a>
+                                    <div class="item-body">
+                                        <div class="body-left">
+                                            <div class="price">
+                                                <h3> AR 450,000</h3><p class="rant">AR 2,800/m²</p>
+                                            </div>
+                                            <div class="info-row">
+                                                <h2 class="property-title"><a href="#">Appartement Moderne</a></h2>
+                                                <h4 class="property-location">Analakely</h4>
+                                            </div>
+                                            <div class="info-row amenities">
+                                                <p><span>Lits: 4</span><span>Chambres: 2</span><span>m²: 1200</span></p>                                                <p>Apartment</p>
+                                            </div>
+                                            <div class="info-row date">
+                                                <p><i class="fa fa-user"></i> <a href="#">Mahamasina</a></p>
+                                                <p><i class="fa fa-calendar"></i>il ya 4 mois</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="http://placehold.it/1423x603" width="1423" height="603" alt="Banner Image">
+                            </div>
+                            <div class="item">
+                                <div class="caption">
+                                    <div class="feature-label">En vedette</div>
+                                    <a href="#" class="btn btn-primary btn-detail">Details <i class="fa fa-angle-right"></i></a>
+                                    <div class="item-body">
+                                        <div class="body-left">
+                                            <div class="price">
+                                                <h3> AR 450,000</h3><p class="rant">AR 2,800/m²</p>
+                                            </div>
+                                            <div class="info-row">
+                                                <h2 class="property-title"><a href="#">Appartement Moderne</a></h2>
+                                                <h4 class="property-location">Analakely</h4>
+                                            </div>
+                                            <div class="info-row amenities">
+                                                <p><span>Lits: 4</span><span>Chambres: 2</span><span>m²: 1200</span></p>                                                <p>Apartment</p>
+                                            </div>
+                                            <div class="info-row date">
+                                                <p><i class="fa fa-user"></i> <a href="#">Mahamasina</a></p>
+                                                <p><i class="fa fa-calendar"></i>il ya 4 mois</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="http://placehold.it/1423x603" width="1423" height="603" alt="Banner Image">
+                            </div>
+                            <div class="item">
+                                <div class="caption">
+                                    <div class="feature-label">En vedette</div>
+                                    <a href="#" class="btn btn-primary btn-detail">Détails <i class="fa fa-angle-right"></i></a>
+                                    <div class="item-body">
+                                        <div class="body-left">
+                                            <div class="price">
+                                                <h3> AR 450,000</h3><p class="rant">AR 2,800/m²</p>
+                                            </div>
+                                            <div class="info-row">
+                                                <h2 class="property-title"><a href="#">Appartement Moderne</a></h2>
+                                                <h4 class="property-location">Analakely</h4>
+                                            </div>
+                                            <div class="info-row amenities">
+                                                <p><span>Lits: 4</span><span>Chambres: 2</span><span>m²: 1200</span></p>                                                <p>Apartment</p>
+                                            </div>
+                                            <div class="info-row date">
+                                                <p><i class="fa fa-user"></i> <a href="#">Mahamasina</a></p>
+                                                <p><i class="fa fa-calendar"></i>il ya 4 mois</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="http://placehold.it/1423x603" width="1423" height="603" alt="Banner Image">
+                            </div>
+                            <div class="item">
+                                <div class="caption">
+                                    <div class="feature-label">En vedette</div>
+                                    <a href="#" class="btn btn-primary btn-detail">Details <i class="fa fa-angle-right"></i></a>
+                                    <div class="item-body">
+                                        <div class="body-left">
+                                            <div class="price">
+                                                <h3> AR 450,000</h3><p class="rant">AR 2,800/m²</p>
+                                            </div>
+                                            <div class="info-row">
+                                                <h2 class="property-title"><a href="#">Appartement Moderne</a></h2>
+                                                <h4 class="property-location">Analakely</h4>
+                                            </div>
+                                            <div class="info-row amenities">
+                                                <p><span>Lits: 4</span><span>Chambres: 2</span><span>m²: 1200</span></p>                                                <p>Apartment</p>
+                                            </div>
+                                            <div class="info-row date">
+                                                <p><i class="fa fa-user"></i> <a href="#">Mahamasina</a></p>
+                                                <p><i class="fa fa-calendar"></i>il ya 4 mois</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="http://placehold.it/1423x603" width="1423" height="603" alt="Banner Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end banner module-->
+
+    <!--start section page body-->
+    <section id="section-body" class="landing-page">
+
+        <!--start sponsors module-->
+        <div id="sponsors-module" class="houzez-module sponsors-module">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul class="sponsors-block list-inline">
+                            <li>
+                                <img src="images/sponsor-image-1.png" alt="Sponsor">
+                            </li>
+                            <li>
+                                <img src="images/sponsor-image-2.png" alt="Sponsor">
+                            </li>
+                            <li>
+                                <img src="images/sponsor-image-1.png" alt="Sponsor">
+                            </li>
+                            <li>
+                                <img src="images/sponsor-image-2.png" alt="Sponsor">
+                            </li>
+                            <li>
+                                <img src="images/sponsor-image-1.png" alt="Sponsor">
+                            </li>
+                            <li>
+                                <img src="images/sponsor-image-2.png" alt="Sponsor">
+                            </li>
+                            <li>
+                                <img src="images/sponsor-image-1.png" alt="Sponsor">
+                            </li>
+                            <li>
+                                <img src="images/sponsor-image-2.png" alt="Sponsor">
+                            </li>
+                            <li>
+                                <img src="images/sponsor-image-1.png" alt="Sponsor">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end sponsors module-->
+
+        <!--start location module-->
+        <div class="houzez-module module-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <h2>Nos emplacements</h2>
+                        <h3 class="sub-heading">les Espaces  dans les endroits incroyables à Madagascar</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="location-modul" class="houzez-module location-module grid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="location-block">
+                            <figure>
+                                <a href="#">
+                                    <img src="http://placehold.it/370x370" width="370" height="370" alt="Image">
+                                </a>
+                                <figcaption class="location-fig-caption">
+                                    <h3 class="heading">Appartement</h3>
+                                    <p class="sub-heading">30 Propriétés</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="location-block">
+                            <figure>
+                                <a href="#">
+                                    <img src="http://placehold.it/770x370" width="770" height="370" alt="Image">
+                                </a>
+                                <div class="location-fig-caption">
+                                    <h3 class="heading">Appartement</h3>
+                                    <p class="sub-heading">30 Propriétés</p>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="location-block">
+                            <figure>
+                                <a href="#">
+                                    <img src="http://placehold.it/770x370" width="770" height="370" alt="Image">
+                                </a>
+                                <div class="location-fig-caption">
+                                    <h3 class="heading">Appartement</h3>
+                                    <p class="sub-heading">30 Propriétés</p>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="location-block">
+                            <figure>
+                                <a href="#">
+                                    <img src="http://placehold.it/370x370" width="370" height="370" alt="Image">
+                                </a>
+                                <div class="location-fig-caption">
+                                    <h3 class="heading">Appartement</h3>
+                                    <p class="sub-heading">30 Propriétés</p>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end location module-->
+
+        <div class="houzez-module module-title text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <h2>Voici pourquoi vous allez adorer Mamaison</h2>
+                        <h3 class="sub-heading">Créez votre site Web ou votre marché immobilier</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--start services module-->
+        <div id="services-module-2" class="houzez-module services-module">
+            <div class="container">
+                <div class="service-blocks-main">
+                    <div class="row no-margin">
+                        <div class="col-sm-4 no-padding">
+                            <div class="service-block">
+                                <div class="block-icon">
+                                    <img src="images/icons/rocket.png" alt="Rocket" width="60" height="60">
+                                </div>
+                                <div class="block-content">
+                                    <h3>Titre</h3>
+                                    <p>Lorem ipsum dolor sit amet, cotetur
+                                        adipiscing elit. Nam sollicitudin i
+                                        n nulla vitae suscipit. Aenean quat</p>
+                                    <a href="#" class="find">Voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 no-padding">
+                            <div class="service-block">
+                                <div class="block-icon">
+                                    <img src="images/icons/briefcase.png" alt="Briefcase" width="60" height="60">
+                                </div>
+                                <div class="block-content">
+                                    <h3>Titre</h3>
+                                    <p>Lorem ipsum dolor sit amet, cotetur
+                                        adipiscing elit. Nam sollicitudin i
+                                        n nulla vitae suscipit. Aenean quat</p>
+                                    <a href="#" class="find">Voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 no-padding">
+                            <div class="service-block">
+                                <div class="block-icon">
+                                    <img src="images/icons/wrench.png" alt="Wrench" width="60" height="60">
+                                </div>
+                                <div class="block-content">
+                                   <h3>Titre</h3>
+                                    <p>Lorem ipsum dolor sit amet, cotetur
+                                        adipiscing elit. Nam sollicitudin i
+                                        n nulla vitae suscipit. Aenean quat</p>
+                                    <a href="#" class="find">Voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end services module-->
+
+        <!--start carousel module-->
+        <div id="carousel-module-3" class="houzez-module caption-above carousel-module module-white-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="module-title-nav clearfix">
+                            <div>
+                                <h2>Les propriétés</h2>
+                            </div>
+                            <div class="module-nav">
+                                <button class="btn btn-sm btn-crl-3-prev">Préc</button>
+                                <button class="btn btn-sm btn-crl-3-next">Suiv</button>
+                                <a href="#" class="btn btn-carousel btn-sm">Tous</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div id="properties-carousel-3" class="carousel">
+                            <div class="item">
+                                <div class="figure-block">
+                                    <figure class="item-thumb">
+                                        <span class="label-featured label label-success">En vedette</span>
+                                        <a href="#" class="hover-effect">
+                                            <img src="http://placehold.it/389x292" width="389" height="292" alt="Image">
+                                        </a>
+                                        <figcaption class="thumb-caption">
+                                            <div class="cap-price pull-left"> AR 350,000</div>
+                                            <ul class="list-unstyled actions pull-right">
+                                                <li>
+                                                    <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
+                                                        <i class="fa fa-heart-o"></i>
+                                                    </span>
+                                                </li>
+                                                <li class="share-btn">
+                                                    <div class="share_tooltip fade">
+                                                        <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                                        <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                                        <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+                                                        <a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
+                                                    </div>
+                                                    <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
+                                                </li>
+                                            </ul>
+                                        </figcaption>
+                                        <figcaption class="detail-above detail">
+                                            <div class="fig-title clearfix">
+                                                <h3 class="pull-left">Appartement</h3>
+                                                <ul class="list-unstyled actions pull-right">
+                                                    <li>
+                                                        <span data-toggle="tooltip" data-placement="top" title="Favorite"><i class="fa fa-heart-o"></i></span>
+                                                    </li>
+                                                    <li class="share-btn">
+                                                        <div class="share_tooltip fade">
+                                                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                                                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                                                            <a href="#"  target="_blank"><i class="fa fa-google-plus"></i></a>
+                                                            <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+                                                        </div>
+                                                        <span data-toggle="tooltip" data-placement="top" title="share"><i class="fa fa-share-alt"></i></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <ul class="list-inline">
+                                                <li class="cap-price"> AR 350,000</li>
+                                                <li>2 L</li>
+                                                <li>3 C</li>
+                                                <li>1,287 m²</li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="detail-bottom detail">
+                                        <h3>Appartement</h3>
+                                        <ul class="list-inline">
+                                            <li>2 L</li>
+                                                <li>3 C</li>
+                                                <li>1,287 m²</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="figure-block">
+                                    <figure class="item-thumb">
+                                        <span class="label-featured label label-success">En vedette</span>
+                                        <a href="#" class="hover-effect">
+                                            <img src="http://placehold.it/389x292" width="389" height="292" alt="Image">
+                                        </a>
+                                        <figcaption class="thumb-caption">
+                                            <div class="cap-price pull-left"> AR 350,000</div>
+                                            <ul class="list-unstyled actions pull-right">
+                                                <li>
+                                                    <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
+                                                        <i class="fa fa-heart-o"></i>
+                                                    </span>
+                                                </li>
+                                                <li class="share-btn">
+                                                    <div class="share_tooltip fade">
+                                                        <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                                        <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                                        <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+                                                        <a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
+                                                    </div>
+                                                    <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
+                                                </li>
+                                            </ul>
+                                        </figcaption>
+                                        <figcaption class="detail-above detail">
+                                            <div class="fig-title clearfix">
+                                                <h3 class="pull-left">Appartement</h3>
+                                                <ul class="list-unstyled actions pull-right">
+                                                    <li>
+                                                        <span data-toggle="tooltip" data-placement="top" title="Favorite"><i class="fa fa-heart-o"></i></span>
+                                                    </li>
+                                                    <li class="share-btn">
+                                                        <div class="share_tooltip fade">
+                                                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                                                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                                                            <a href="#"  target="_blank"><i class="fa fa-google-plus"></i></a>
+                                                            <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+                                                        </div>
+                                                        <span data-toggle="tooltip" data-placement="top" title="share"><i class="fa fa-share-alt"></i></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <ul class="list-inline">
+                                                <li class="cap-price"> AR 350,000</li>
+                                                <li>2 L</li>
+                                                <li>3 C</li>
+                                                <li>1,287 m²</li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="detail-bottom detail">
+                                        <h3>Appartement</h3>
+                                        <ul class="list-inline">
+                                            <li>2 L</li>
+                                                <li>3 C</li>
+                                                <li>1,287 m²</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="figure-block">
+                                    <figure class="item-thumb">
+                                        <span class="label-featured label label-success">En vedette</span>
+                                        <a href="#" class="hover-effect">
+                                            <img src="http://placehold.it/389x292" width="389" height="292" alt="Image">
+                                        </a>
+                                        <figcaption class="thumb-caption">
+                                            <div class="cap-price pull-left"> AR 350,000</div>
+                                            <ul class="list-unstyled actions pull-right">
+                                                <li>
+                                                    <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
+                                                        <i class="fa fa-heart-o"></i>
+                                                    </span>
+                                                </li>
+                                                <li class="share-btn">
+                                                    <div class="share_tooltip fade">
+                                                        <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                                        <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                                        <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+                                                        <a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
+                                                    </div>
+                                                    <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
+                                                </li>
+                                            </ul>
+                                        </figcaption>
+                                        <figcaption class="detail-above detail">
+                                            <div class="fig-title clearfix">
+                                                <h3 class="pull-left">Appartement</h3>
+                                                <ul class="list-unstyled actions pull-right">
+                                                    <li>
+                                                        <span data-toggle="tooltip" data-placement="top" title="Favorite"><i class="fa fa-heart-o"></i></span>
+                                                    </li>
+                                                    <li class="share-btn">
+                                                        <div class="share_tooltip fade">
+                                                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                                                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                                                            <a href="#"  target="_blank"><i class="fa fa-google-plus"></i></a>
+                                                            <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+                                                        </div>
+                                                        <span data-toggle="tooltip" data-placement="top" title="share"><i class="fa fa-share-alt"></i></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <ul class="list-inline">
+                                                <li class="cap-price"> AR 350,000</li>
+                                                <li>2 L</li>
+                                                <li>3 C</li>
+                                                <li>1,287 m²</li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="detail-bottom detail">
+                                        <h3>Appartement</h3>
+                                        <ul class="list-inline">
+                                            <li>2 L</li>
+                                                <li>3 C</li>
+                                                <li>1,287 m²</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="figure-block">
+                                    <figure class="item-thumb">
+                                        <span class="label-featured label label-success">En vedette</span>
+                                        <a href="#" class="hover-effect">
+                                            <img src="http://placehold.it/389x292" width="389" height="292" alt="Image">
+                                        </a>
+                                        <figcaption class="thumb-caption">
+                                            <div class="cap-price pull-left"> AR 350,000</div>
+                                            <ul class="list-unstyled actions pull-right">
+                                                <li>
+                                                    <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
+                                                        <i class="fa fa-heart-o"></i>
+                                                    </span>
+                                                </li>
+                                                <li class="share-btn">
+                                                    <div class="share_tooltip fade">
+                                                        <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                                        <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                                        <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+                                                        <a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
+                                                    </div>
+                                                    <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
+                                                </li>
+                                            </ul>
+                                        </figcaption>
+                                        <figcaption class="detail-above detail">
+                                            <div class="fig-title clearfix">
+                                                <h3 class="pull-left">Appartement</h3>
+                                                <ul class="list-unstyled actions pull-right">
+                                                    <li>
+                                                        <span data-toggle="tooltip" data-placement="top" title="Favorite"><i class="fa fa-heart-o"></i></span>
+                                                    </li>
+                                                    <li class="share-btn">
+                                                        <div class="share_tooltip fade">
+                                                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                                                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                                                            <a href="#"  target="_blank"><i class="fa fa-google-plus"></i></a>
+                                                            <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+                                                        </div>
+                                                        <span data-toggle="tooltip" data-placement="top" title="share"><i class="fa fa-share-alt"></i></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <ul class="list-inline">
+                                                <li class="cap-price"> AR 350,000</li>
+                                                <li>2 L</li>
+                                                <li>3 C</li>
+                                                <li>1,287 m²</li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="detail-bottom detail">
+                                        <h3>Appartement</h3>
+                                        <ul class="list-inline">
+                                            <li>2 L</li>
+                                                <li>3 C</li>
+                                                <li>1,287 m²</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="figure-block">
+                                    <figure class="item-thumb">
+                                        <span class="label-featured label label-success">En vedette</span>
+                                        <a href="#" class="hover-effect">
+                                            <img src="http://placehold.it/389x292" width="389" height="292" alt="Image">
+                                        </a>
+                                        <figcaption class="thumb-caption">
+                                            <div class="cap-price pull-left"> AR 350,000</div>
+                                            <ul class="list-unstyled actions pull-right">
+                                                <li>
+                                                    <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
+                                                        <i class="fa fa-heart-o"></i>
+                                                    </span>
+                                                </li>
+                                                <li class="share-btn">
+                                                    <div class="share_tooltip fade">
+                                                        <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                                        <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                                        <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+                                                        <a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
+                                                    </div>
+                                                    <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
+                                                </li>
+                                            </ul>
+                                        </figcaption>
+                                        <figcaption class="detail-above detail">
+                                            <div class="fig-title clearfix">
+                                                <h3 class="pull-left">Appartement</h3>
+                                                <ul class="list-unstyled actions pull-right">
+                                                    <li>
+                                                        <span data-toggle="tooltip" data-placement="top" title="Favorite"><i class="fa fa-heart-o"></i></span>
+                                                    </li>
+                                                    <li class="share-btn">
+                                                        <div class="share_tooltip fade">
+                                                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                                                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                                                            <a href="#"  target="_blank"><i class="fa fa-google-plus"></i></a>
+                                                            <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+                                                        </div>
+                                                        <span data-toggle="tooltip" data-placement="top" title="share"><i class="fa fa-share-alt"></i></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <ul class="list-inline">
+                                                <li class="cap-price"> AR 350,000</li>
+                                                <li>2 L</li>
+                                                <li>3 C</li>
+                                                <li>1,287 m²</li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="detail-bottom detail">
+                                        <h3>Appartement</h3>
+                                        <ul class="list-inline">
+                                            <li>2 L</li>
+                                                <li>3 C</li>
+                                                <li>1,287 m²</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end carousel module-->
+
+    </section>
+    <!--end section page body-->
+
+   <!--start footer section-->
+    <footer class="footer-v2">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="footer-widget widget-about">
+                            <div class="widget-top">
+                                <h3 class="widget-title">À propos du site</h3>
+                            </div>
+                            <div class="widget-body">
+                                <p>Ma Maison</p>
+                                <p class="read"><a href="about-us.html">Lire la suite <i class="fa fa-caret-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-widget widget-contact">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Nous contacter</h3>
+                            </div>
+                            <div class="widget-body">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-location-arrow"></i>Mahamasinba</li>
+                                    <li><i class="fa fa-phone"></i>+231 032 54 953 67 </li>
+                                    <li><i class="fa fa-envelope-o"></i> <a href="#">info@mamaison.mg</a></li>
+                                </ul>
+                                <p class="read"><a href="contact-us.html">Nous contacter<i class="fa fa-caret-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="footer-widget widget-newsletter">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Newsletter</h3>
+                            </div>
+                            <div class="widget-body">
+                                <form>
+                                    <div class="table-list">
+                                        <div class="form-group table-cell">
+                                            <div class="input-email input-icon">
+                                                <input class="form-control" placeholder="Entrer votre Email">
+                                            </div>
+                                        </div>
+                                        <div class="table-cell">
+                                            <button class="btn btn-primary">Soumettre</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <p>Ma Maison est un site immobilier.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3">
+                        <div class="footer-col">
+                            <p>Ma maison © Tous les droits sont réservés</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-5">
+                        <div class="footer-col">
+                            <div class="navi">
+                                <ul id="footer-menu" class="">
+                                    <li><a href="private.html">Vie Privée</a></li>
+                                    <li><a href="tearm-condition.html">Termes et conditions</a></li>
+                                    <li><a href="Contact-us.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="footer-col foot-social">
+                            <p>
+                                Nous suivre sur
+                                <a href="#"><i class="fa fa-facebook-square" id="faclasse"></i></a>
+                                <a href="#" ><i class="fa fa-twitter-square" id="faclasse" ></i></a>
+                                <a href="#"><i class="fa fa-google-plus-square" id="faclasse" ></i></a>
+                                <a href="#" ><i class="fa fa-linkedin-square" id="faclasse" ></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end footer section-->
+
+    <!--Start Scripts-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

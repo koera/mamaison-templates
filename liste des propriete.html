@@ -1,0 +1,1744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ma Maison / liste des  propriété</title>
+    <!--Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Houzez HTML5 Template">
+    <meta name="description" content="Houzez HTML5 Template">
+    <meta name="author" content="Favethemes">
+    <meta name="theme-color" content="#ffffff">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-select.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/mediaqueries.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!--start header section header v1-->
+    <header id="header-section" class="header-section-4 nav-left hidden-sm hidden-xs" data-sticky="1">
+        <div class="container">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/mamaison2.png" alt="logo">
+                    </a>
+                </div>
+                <nav class="navi main-nav">
+                    <ul>
+                        <li><a href="index.html">à VENDRE</a>
+                            <ul class="sub-menu">
+                                <li><a href="home-splash.html">MA MAISON</a></li>
+                                <li><a href="home-splash.html">APPARTEMENT</a></li>
+                                <li><a href="#">PROPPRIETE</a></li>
+                                <li><a href="#">COMMERCIALES</a>                                  
+                                <li><a href="#">TERRAINS</a>                                  
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">à LOUER</a>
+                             <ul class="sub-menu">
+                                <li><a href="home-splash.html">Ma maison</a></li>
+                                <li><a href="home-splash.html">Appartement</a></li>
+                                <li><a href="#">Propriété</a></li>
+                                <li><a href="#">Commerciales</a>                                  
+                                <li><a href="#">Terrains</a>                                  
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-right">
+                <div class="user">
+                    <a href="#">Se connecter </a>
+                    <a href="#"> Créer un compte</a>
+                    <a href="add-new-property.html" class="btn btn-default">Publier votre propriété</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-mobile visible-sm visible-xs">
+        <div class="container">
+            <!--start mobile nav-->
+            <div class="mobile-nav">
+                <span class="nav-trigger"><i class="fa fa-navicon"></i></span>
+                <div class="nav-dropdown main-nav-dropdown"></div>
+            </div>
+            <!--end mobile nav-->
+            <div class="header-logo">
+                <a href="index.html"><img src="images/mamaison2.png" alt="logo"></a>
+            </div>
+            <div class="header-user">
+                <div class="user">
+                    <a href="#" data-toggle="modal" data-target="#pop-login"><i class="fa fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end header section header v1-->
+   <section class="advanced-search advance-search-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <form>
+                        <div class="form-group search-long">
+                            <div class="search">
+                                <div class="input-search input-icon">
+                                    <input class="form-control" type="text" placeholder="Entrez une adresse, une ville, une rue ou un zip">
+                                </div>
+                                <select name="location" class="selectpicker bs-select-hidden" data-live-search="false" data-live-search-style="begins">
+                                    <option value="">Toutes les villes</option>
+                                    <option value="chicago">Antananarivo</option>
+                                    <option value="los-angeles">Antsirabe</option>
+                                    <option value="miami">Diego</option>
+                                    <option value="new-york">Farafangana</option>
+                                </select>
+                                <select name="area" class="selectpicker bs-select-hidden" data-live-search="false" data-live-search-style="begins">
+                                    <option value="">Toutes les zones</option>
+                                    <option value="beverly-hills">Mahamasina</option>
+                                    <option value="brickell">Analakely</option>
+                                    <option value="brickyard">Besarety</option>
+                                    <option value="bronx">Andravohangy</option>
+                                    <option value="brooklyn">Ampasapiito</option>
+                                    <option value="coconut-grove">Akadimbahoka</option>
+                                    <option value="downtown">Andrepamaky</option>
+                                    <option value="eagle-rock">Amboanjobe</option>
+                                    <option value="englewood">Ankarobato</option>
+                                    <option value="hermosa">Ankasina</option>
+                                    <option value="hollywood">Ampitatafika</option>
+                                    <option value="lincoln-park">Itaosy</option>
+                                    <option value="manhattan">Ankatso</option>
+                                    <option value="midtown">Ampasika</option>
+                                    <option value="queens">Keniheny</option>
+                                    <option value="westwood">Ambatolampy</option>
+                                    <option value="wynwood">Ibity</option>
+                                </select>
+                                <div class="advance-btn-holder">
+                                    <button class="advance-btn btn" type="button"><i class="fa fa-gear"></i>Avance</button>
+                                </div>
+                            </div>
+                            <div class="search-btn">
+                                <button class="btn btn-primary">Go</button>
+                            </div>
+                        </div>
+                        <div class="advance-fields">
+                            <div class="row">
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Status">
+                                            <option>Statu 1</option>
+                                            <option>Statu 2</option>
+                                            <option>Statu 3</option>
+                                            <option>Statu 4</option>
+                                            <option>Statu 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Property Type">
+
+                                            <option>Type de propriété 1</option>
+                                            <option>Type de propriété 2</option>
+                                            <option>Type de propriété 3</option>
+                                            <option>Type de propriété 4</option>
+                                            <option>Type de propriété 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Beds">
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Baths">
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Min Price">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Max Price">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Min Areas (Sqft)">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Max Areas (Sqft)">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-xs-12 features-list">
+
+                                    <label class="text-uppercase title">Autres caractéristiques</label>
+                                    <div class="clearfix"></div>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option1"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option2"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option3"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option1"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option2"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option3"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option1"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option2"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option3"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option1"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option2"> Caractéristique
+                                    </label>
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="option3"> Caractéristique
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end advanced search section-->
+	
+	<section class="advanced-search-mobile visible-xs visible-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <form>
+                        <div class="single-search-wrap">
+                            <div class="single-search-inner advance-btn">
+                                <button class="table-cell text-left" type="button"><i class="fa fa-gear"></i></button>
+                            </div>
+                            <div class="single-search-inner single-search">
+
+                                <input type="text" class="form-control table-cell" name="search" placeholder="Search">
+                            </div>
+                            <div class="single-search-inner single-seach-btn">
+                                <button class="table-cell text-right" type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="advance-fields">
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Location">
+                                            <option>Location 1</option>
+                                            <option>Location 2</option>
+                                            <option>Location 3</option>
+                                            <option>Location 4</option>
+                                            <option>Location 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Status">
+                                            <option>Statu 1</option>
+                                            <option>Statu 2</option>
+                                            <option>Statu 3</option>
+                                            <option>Statu 4</option>
+                                            <option>Statu 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Property Type">
+                                            <option>Type de propriété 1</option>
+                                            <option>Type de propriété 2</option>
+                                            <option>Type de propriété 3</option>
+                                            <option>Type de propriété 4</option>
+                                            <option>Type de propriété 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Beds">
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Baths">
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Min Areas (Sqft)">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Max Areas (Sqft)">
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                            <option>$100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-xs-12">
+                                    <div class="range-advanced-main">
+                                        <div class="range-text">
+                                            <input type="hidden" class="min-price-range-hidden range-input" readonly >
+                                            <input type="hidden" class="max-price-range-hidden range-input" readonly >
+                                            <p><span class="range-title">Echantillon des prix:</span> de <span class="min-price-range"></span> à <span class="max-price-range"></span></p>
+                                        </div>
+                                        <div class="range-wrap">
+                                            <div class="price-range-advanced"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+                                    <button type="submit" class="btn btn-secondary btn-block"><i class="fa fa-search pull-left"></i> Rechercher</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end advanced search section-->
+
+    <!--start section page body-->
+    <section id="section-body">
+        <div class="container">
+            <div class="page-title breadcrumb-top">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ol class="breadcrumb"><li ><a href="/"><i class="fa fa-home"></i></a></li><li class="active">Liste simple - Affichage de la liste</li></ol>
+                        <div class="page-title-left">
+                            <h2>Liste simple - Affichage de la liste</h2>
+                        </div>
+                        <div class="page-title-right">
+                            <div class="view hidden-xs">
+                                <div class="table-cell">
+                                    <span class="view-btn btn-list active"><i class="fa fa-th-list"></i></span>
+                                    <span class="view-btn btn-grid"><i class="fa fa-th-large"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12 list-grid-area container-contentbar">
+                    <div id="content-area">
+                        <!--start list tabs-->
+                        <div class="list-tabs table-list full-width">
+                            <div class="tabs table-cell">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="active">TOUS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">à vendre</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">à louer</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sort-tab table-cell text-right">
+                                Trier par:
+                                <select class="selectpicker bs-select-hidden" title="Choisir" data-live-search-style="begins" data-live-search="true">
+                                    <option>Pertinence</option>
+                                    <option>Pertinence</option>
+                                    <option>Pertinence</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!--end list tabs-->
+
+                        <!--start property items-->
+                        <div class="property-listing list-view">
+                            <div class="row">
+                                <div class="item-wrap">
+                                    <div class="property-item table-list">
+                                        <div class="table-cell">
+                                            <div class="figure-block">
+                                                <figure class="item-thumb">
+                                                    <span class="label-featured label label-success">En vedette</span>
+                                                    <div class="label-wrap hide-on-list">
+                                                        <span class="label label-default">à vendre</span>
+                                                        <span class="label label-danger">Vendu</span>
+                                                    </div>
+                                                    <div class="price hide-on-list">
+                                                        <h3> AR 350,000</h3>
+                                                        <p class="rant"> AR 21,000/m²</p>
+                                                    </div>
+                                                    <a href="#">
+                                                        <img src="http://placehold.it/364x244" alt="thumb">
+                                                    </a>
+                                                    <figcaption class="thumb-caption cap-actions clearfix">
+                                                        <ul class="list-unstyled actions pull-right">
+                                                            <li>
+                                                                <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
+                                                                    <i class="fa fa-heart"></i>
+                                                                </span>
+                                                            </li>
+                                                            <li class="share-btn">
+                                                                <div class="share_tooltip fade">
+                                                                    <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                                                    <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                                                </div>
+                                                                <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
+                                                            </li>
+                                                            <li>
+                                                                <span data-toggle="tooltip" data-placement="top" title="Photos (12)">
+                                                                    <i class="fa fa-camera"></i> <!--<span class="count">(12)</span>-->
+                                                                </span>
+                                                            </li>
+                                                        </ul>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="item-body table-cell">
+
+                                            <div class="body-left table-cell">
+                                                <div class="info-row">
+                                                    <div class="label-wrap hide-on-grid">
+                                                        <div class="label-status label label-default">A vendre</div>
+                                                        <span class="label label-danger">Vendu</span>
+                                                    </div>
+                                                    <h2 class="property-title"><a href="#">Appartement </a></h2>
+                                                    <h4 class="property-location">Mahamasina</h4>
+                                                </div>
+                                                <div class="info-row amenities hide-on-grid">
+                                                    <p>
+                                                        <span>Lits: 3</span>
+                                                        <span>Chambres: 2</span>
+                                                        <span>M²: 1,965</span>
+                                                    </p>
+                                                    <p>Maison unifamiliale</p>
+                                                </div>
+                                                <div class="info-row date hide-on-grid">
+                                                    <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
+                                                    <p><i class="fa fa-calendar"></i> 12 jours avant</p>
+                                                </div>
+                                            </div>
+                                            <div class="body-right table-cell hidden-gird-cell">
+                                                <div class="info-row price">
+                                                    <h3> AR 350,000</h3>
+                                                    <p class="rant"> AR 21,000/m²</p>
+                                                </div>
+                                                <div class="info-row phone text-right">
+                                                    <a href="#" class="btn btn-primary">Details <i class="fa fa-angle-right fa-right"></i></a>
+                                                    <p><a href="#">+261 34 265 96</a></p>
+                                                </div>
+                                            </div>
+                                            <div class="table-list full-width hide-on-list">
+                                                <div class="cell">
+                                                    <div class="info-row amenities">
+                                                        <p>
+                                                            <span>Lits: 3</span>
+                                                            <span>Chambres: 2</span>
+                                                            <span>m²: 1,965</span>
+                                                        </p>
+                                                        <p>Maison unifamiliale</p>
+                                                    </div>
+                                                </div>
+                                                <div class="cell">
+                                                    <div class="phone">
+                                                        <a href="#" class="btn btn-primary">Details <i class="fa fa-angle-right fa-right"></i></a>
+                                                        <p><a href="#">+261 33 245 26</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-foot date hide-on-list">
+                                        <div class="item-foot-left">
+                                            <p><i class="fa fa-user"></i> <a href="#">Jean David</a></p>
+                                        </div>
+                                        <div class="item-foot-right">
+                                            <p><i class="fa fa-calendar"></i> 12 jours avant </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-wrap">
+                                    <div class="property-item table-list">
+                                        <div class="table-cell">
+                                            <div class="figure-block">
+                                                <figure class="item-thumb">
+                                                    <span class="label-featured label label-success">En vedette</span>
+                                                    <div class="label-wrap hide-on-list">
+                                                        <span class="label label-default">à vendre</span>
+                                                        <span class="label label-danger">Vendu</span>
+                                                    </div>
+                                                    <div class="price hide-on-list">
+                                                        <h3> AR 350,000</h3>
+                                                        <p class="rant"> AR 21,000/m²</p>
+                                                    </div>
+                                                    <a href="#">
+                                                        <img src="http://placehold.it/364x244" alt="thumb">
+                                                    </a>
+                                                    <figcaption class="thumb-caption cap-actions clearfix">
+                                                        <ul class="list-unstyled actions pull-right">
+                                                            <li>
+                                                                <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
+                                                                    <i class="fa fa-heart"></i>
+                                                                </span>
+                                                            </li>
+                                                            <li class="share-btn">
+                                                                <div class="share_tooltip fade">
+                                                                    <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                                                    <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                                                </div>
+                                                                <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
+                                                            </li>
+                                                            <li>
+                                                                <span data-toggle="tooltip" data-placement="top" title="Photos (12)">
+                                                                    <i class="fa fa-camera"></i> <!--<span class="count">(12)</span>-->
+                                                                </span>
+                                                            </li>
+                                                        </ul>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="item-body table-cell">
+
+                                            <div class="body-left table-cell">
+                                                <div class="info-row">
+                                                    <div class="label-wrap hide-on-grid">
+                                                        <div class="label-status label label-default">A vendre</div>
+                                                        <span class="label label-danger">Vendu</span>
+                                                    </div>
+                                                    <h2 class="property-title"><a href="#">Appartement </a></h2>
+                                                    <h4 class="property-location">Mahamasina</h4>
+                                                </div>
+                                                <div class="info-row amenities hide-on-grid">
+                                                    <p>
+                                                        <span>Lits: 3</span>
+                                                        <span>Chambres: 2</span>
+                                                        <span>M²: 1,965</span>
+                                                    </p>
+                                                    <p>Maison unifamiliale</p>
+                                                </div>
+                                                <div class="info-row date hide-on-grid">
+                                                    <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
+                                                    <p><i class="fa fa-calendar"></i> 12 jours avant</p>
+                                                </div>
+                                            </div>
+                                            <div class="body-right table-cell hidden-gird-cell">
+                                                <div class="info-row price">
+                                                    <h3> AR 350,000</h3>
+                                                    <p class="rant"> AR 21,000/m²</p>
+                                                </div>
+                                                <div class="info-row phone text-right">
+                                                    <a href="#" class="btn btn-primary">Details <i class="fa fa-angle-right fa-right"></i></a>
+                                                    <p><a href="#">+261 34 265 96</a></p>
+                                                </div>
+                                            </div>
+                                            <div class="table-list full-width hide-on-list">
+                                                <div class="cell">
+                                                    <div class="info-row amenities">
+                                                        <p>
+                                                            <span>Lits: 3</span>
+                                                            <span>Chambres: 2</span>
+                                                            <span>m²: 1,965</span>
+                                                        </p>
+                                                        <p>Maison unifamiliale</p>
+                                                    </div>
+                                                </div>
+                                                <div class="cell">
+                                                    <div class="phone">
+                                                        <a href="#" class="btn btn-primary">Détails <i class="fa fa-angle-right fa-right"></i></a>
+                                                        <p><a href="#">+261 33 245 26</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-foot date hide-on-list">
+                                        <div class="item-foot-left">
+                                            <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
+                                        </div>
+                                        <div class="item-foot-right">
+                                            <p><i class="fa fa-calendar"></i> 12 jours avant </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-wrap">
+                                    <div class="property-item table-list">
+                                        <div class="table-cell">
+                                            <div class="figure-block">
+                                                <figure class="item-thumb">
+                                                    <span class="label-featured label label-success">En vedette</span>
+                                                    <div class="label-wrap hide-on-list">
+                                                        <span class="label label-default">à vendre</span>
+                                                        <span class="label label-danger">Vendu</span>
+                                                    </div>
+                                                    <div class="price hide-on-list">
+                                                        <h3> AR 350,000</h3>
+                                                        <p class="rant"> AR 21,000/m²</p>
+                                                    </div>
+                                                    <a href="#">
+                                                        <img src="http://placehold.it/364x244" alt="thumb">
+                                                    </a>
+                                                    <figcaption class="thumb-caption cap-actions clearfix">
+                                                        <ul class="list-unstyled actions pull-right">
+                                                            <li>
+                                                                <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
+                                                                    <i class="fa fa-heart"></i>
+                                                                </span>
+                                                            </li>
+                                                            <li class="share-btn">
+                                                                <div class="share_tooltip fade">
+                                                                    <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                                                    <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                                                </div>
+                                                                <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
+                                                            </li>
+                                                            <li>
+                                                                <span data-toggle="tooltip" data-placement="top" title="Photos (12)">
+                                                                    <i class="fa fa-camera"></i> <!--<span class="count">(12)</span>-->
+                                                                </span>
+                                                            </li>
+                                                        </ul>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="item-body table-cell">
+
+                                            <div class="body-left table-cell">
+                                                <div class="info-row">
+                                                    <div class="label-wrap hide-on-grid">
+                                                        <div class="label-status label label-default">A vendre</div>
+                                                        <span class="label label-danger">Vendu</span>
+                                                    </div>
+                                                    <h2 class="property-title"><a href="#">Appartement </a></h2>
+                                                    <h4 class="property-location">Mahamasina</h4>
+                                                </div>
+                                                <div class="info-row amenities hide-on-grid">
+                                                    <p>
+                                                        <span>Lits: 3</span>
+                                                        <span>Chambres: 2</span>
+                                                        <span>M²: 1,965</span>
+                                                    </p>
+                                                    <p>Maison unifamiliale</p>
+                                                </div>
+                                                <div class="info-row date hide-on-grid">
+                                                    <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
+                                                    <p><i class="fa fa-calendar"></i> 12 jours avant</p>
+                                                </div>
+                                            </div>
+                                            <div class="body-right table-cell hidden-gird-cell">
+                                                <div class="info-row price">
+                                                    <h3> AR 350,000</h3>
+                                                    <p class="rant"> AR 21,000/m²</p>
+                                                </div>
+                                                <div class="info-row phone text-right">
+                                                    <a href="#" class="btn btn-primary">Details <i class="fa fa-angle-right fa-right"></i></a>
+                                                    <p><a href="#">+261 34 265 96</a></p>
+                                                </div>
+                                            </div>
+                                            <div class="table-list full-width hide-on-list">
+                                                <div class="cell">
+                                                    <div class="info-row amenities">
+                                                        <p>
+                                                            <span>Lits: 3</span>
+                                                            <span>Chambres: 2</span>
+                                                            <span>m²: 1,965</span>
+                                                        </p>
+                                                        <p>Maison unifamiliale</p>
+                                                    </div>
+                                                </div>
+                                                <div class="cell">
+                                                    <div class="phone">
+                                                        <a href="#" class="btn btn-primary">Détails <i class="fa fa-angle-right fa-right"></i></a>
+                                                        <p><a href="#">+261 33 245 26</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-foot date hide-on-list">
+                                        <div class="item-foot-left">
+                                            <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
+                                        </div>
+                                        <div class="item-foot-right">
+                                            <p><i class="fa fa-calendar"></i> 12 jours avant </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end property items-->
+
+                        <hr>
+
+                        <!--start property items-->
+                        <div class="property-listing list-view">
+                            <div class="row">
+                                <div class="item-wrap">
+                                    <div class="property-item table-list">
+                                        <div class="table-cell">
+                                            <div class="figure-block">
+                                                <figure class="item-thumb">
+                                                    <span class="label-featured label label-success">En vedette</span>
+                                                    <div class="price hide-on-list">
+                                                        <h3> AR 350,000</h3>
+                                                        <p class="rant">AR 21,000/m²</p>
+                                                    </div>
+                                                    <a href="#">
+                                                        <img src="http://placehold.it/364x244" alt="thumb">
+                                                    </a>
+                                                    <figcaption class="thumb-caption cap-actions clearfix">
+                                                        <div class="pull-left hidden-xs">
+                                                            <span data-toggle="tooltip" data-placement="top" title="Photos">
+                                                                <i class="fa fa-camera"></i> <span class="count">(12)</span>
+                                                            </span>
+                                                        </div>
+                                                        <ul class="list-unstyled actions pull-right">
+                                                            <li>
+                                                                <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
+                                                                    <i class="fa fa-heart"></i>
+                                                                </span>
+                                                            </li>
+                                                            <li class="share-btn">
+                                                                <div class="share_tooltip fade">
+                                                                    <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                                                    <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                                                </div>
+                                                                <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
+                                                            </li>
+                                                        </ul>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="item-body table-cell">
+
+                                            <div class="body-left table-cell">
+                                                <div class="info-row">
+                                                    <div class="rating">
+                                                        <span class="stars">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star-o"></i>
+                                                        </span>
+                                                        <span>15 Votes</span>
+                                                    </div>
+                                                    <h2 class="property-title"><a href="#">Appartement</a></h2>
+                                                    <h4 class="property-location">Mahamasina</h4>
+                                                </div>
+                                                <div class="info-row amenities hide-on-grid">
+                                                    <p>
+                                                        <span>Lits: 3</span>
+                                                        <span>Chambres: 2</span>
+                                                        <span>m²: 1,965</span>
+                                                    </p>
+                                                    <p>Maison unifamiliale</p>
+                                                </div>
+                                                <div class="info-row date hide-on-grid">
+                                                    <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
+                                                    <p><i class="fa fa-calendar"></i> 12 jours avant </p>
+                                                </div>
+                                            </div>
+                                            <div class="body-right table-cell hidden-gird-cell">
+                                                <div class="info-row price">
+                                                    <h3> AR 350,000</h3>
+                                                    <p class="rant"> AR 21,000/m²</p>
+                                                </div>
+                                                <div class="info-row phone text-right">
+                                                    <a href="#" class="btn btn-primary">Détails <i class="fa fa-angle-right fa-right"></i></a>
+                                                    <p><a href="#">+261 33 21 458 66</a></p>
+                                                </div>
+                                            </div>
+                                            <div class="table-list full-width hide-on-list">
+                                                <div class="cell">
+                                                    <div class="info-row amenities">
+                                                        <p>
+                                                            <span>Lits: 3</span>
+                                                            <span>Chambres: 2</span>
+                                                            <span>M²: 1,965</span>
+                                                        </p>
+                                                        <p>Maison unifamiliale</p>
+                                                    </div>
+                                                </div>
+                                                <div class="cell">
+                                                    <div class="phone">
+                                                        <a href="#" class="btn btn-primary">Détails <i class="fa fa-angle-right fa-right"></i></a>
+                                                        <p><a href="#">+261 33 256 31</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-foot date hide-on-list">
+                                        <div class="item-foot-left">
+                                            <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
+                                        </div>
+                                        <div class="item-foot-right">
+                                            <p><i class="fa fa-calendar"></i> 12 jours avant </p>
+                                        </div>
+                                    </div>
+                                </div>
+								
+                                <div class="item-wrap">
+                                    <div class="property-item table-list">
+                                        <div class="table-cell">
+                                            <div class="figure-block">
+                                                <figure class="item-thumb">
+                                                    <span class="label-featured label label-success">En vedette</span>
+                                                    <div class="price hide-on-list">
+                                                        <h3> AR 350,000</h3>
+                                                        <p class="rant">AR 21,000/m²</p>
+                                                    </div>
+                                                    <a href="#">
+                                                        <img src="http://placehold.it/364x244" alt="thumb">
+                                                    </a>
+                                                    <figcaption class="thumb-caption cap-actions clearfix">
+                                                        <div class="pull-left hidden-xs">
+                                                            <span data-toggle="tooltip" data-placement="top" title="Photos">
+                                                                <i class="fa fa-camera"></i> <span class="count">(12)</span>
+                                                            </span>
+                                                        </div>
+                                                        <ul class="list-unstyled actions pull-right">
+                                                            <li>
+                                                                <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
+                                                                    <i class="fa fa-heart"></i>
+                                                                </span>
+                                                            </li>
+                                                            <li class="share-btn">
+                                                                <div class="share_tooltip fade">
+                                                                    <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                                                    <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                                                </div>
+                                                                <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
+                                                            </li>
+                                                        </ul>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="item-body table-cell">
+
+                                            <div class="body-left table-cell">
+                                                <div class="info-row">
+                                                    <div class="rating">
+                                                        <span class="stars">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star-o"></i>
+                                                        </span>
+                                                        <span>15 Votes</span>
+                                                    </div>
+                                                    <h2 class="property-title"><a href="#">Appartement</a></h2>
+                                                    <h4 class="property-location">Mahamasina</h4>
+                                                </div>
+                                                <div class="info-row amenities hide-on-grid">
+                                                    <p>
+                                                        <span>Lits: 3</span>
+                                                        <span>Chambres: 2</span>
+                                                        <span>m²: 1,965</span>
+                                                    </p>
+                                                    <p>Maison unifamiliale</p>
+                                                </div>
+                                                <div class="info-row date hide-on-grid">
+                                                    <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
+                                                    <p><i class="fa fa-calendar"></i> 12 jours avant </p>
+                                                </div>
+                                            </div>
+                                            <div class="body-right table-cell hidden-gird-cell">
+                                                <div class="info-row price">
+                                                    <h3> AR 350,000</h3>
+                                                    <p class="rant"> AR 21,000/m²</p>
+                                                </div>
+                                                <div class="info-row phone text-right">
+                                                    <a href="#" class="btn btn-primary">Détails <i class="fa fa-angle-right fa-right"></i></a>
+                                                    <p><a href="#">+261 33 21 458 66</a></p>
+                                                </div>
+                                            </div>
+                                            <div class="table-list full-width hide-on-list">
+                                                <div class="cell">
+                                                    <div class="info-row amenities">
+                                                        <p>
+                                                            <span>Lits: 3</span>
+                                                            <span>Chambres: 2</span>
+                                                            <span>M²: 1,965</span>
+                                                        </p>
+                                                        <p>Maison unifamiliale</p>
+                                                    </div>
+                                                </div>
+                                                <div class="cell">
+                                                    <div class="phone">
+                                                        <a href="#" class="btn btn-primary">Details <i class="fa fa-angle-right fa-right"></i></a>
+                                                        <p><a href="#">+261 33 256 31</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-foot date hide-on-list">
+                                        <div class="item-foot-left">
+                                            <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
+                                        </div>
+                                        <div class="item-foot-right">
+                                            <p><i class="fa fa-calendar"></i> 12 jours avant </p>
+                                        </div>
+                                    </div>
+                                </div>
+								
+                                <div class="item-wrap">
+                                    <div class="property-item table-list">
+                                        <div class="table-cell">
+                                            <div class="figure-block">
+                                                <figure class="item-thumb">
+                                                    <span class="label-featured label label-success">En vedette</span>
+                                                    <div class="price hide-on-list">
+                                                        <h3> AR 350,000</h3>
+                                                        <p class="rant">AR 21,000/m²</p>
+                                                    </div>
+                                                    <a href="#">
+                                                        <img src="http://placehold.it/364x244" alt="thumb">
+                                                    </a>
+                                                    <figcaption class="thumb-caption cap-actions clearfix">
+                                                        <div class="pull-left hidden-xs">
+                                                            <span data-toggle="tooltip" data-placement="top" title="Photos">
+                                                                <i class="fa fa-camera"></i> <span class="count">(12)</span>
+                                                            </span>
+                                                        </div>
+                                                        <ul class="list-unstyled actions pull-right">
+                                                            <li>
+                                                                <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
+                                                                    <i class="fa fa-heart"></i>
+                                                                </span>
+                                                            </li>
+                                                            <li class="share-btn">
+                                                                <div class="share_tooltip fade">
+                                                                    <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                                                    <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                                                    <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+                                                                    <a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
+                                                                </div>
+                                                                <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
+                                                            </li>
+                                                        </ul>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="item-body table-cell">
+
+                                            <div class="body-left table-cell">
+                                                <div class="info-row">
+                                                    <div class="rating">
+                                                        <span class="stars">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star-o"></i>
+                                                        </span>
+                                                        <span>15 Votes</span>
+                                                    </div>
+                                                    <h2 class="property-title"><a href="#">Appartement</a></h2>
+                                                    <h4 class="property-location">Mahamasina</h4>
+                                                </div>
+                                                <div class="info-row amenities hide-on-grid">
+                                                    <p>
+                                                        <span>Lits: 3</span>
+                                                        <span>Chambres: 2</span>
+                                                        <span>m²: 1,965</span>
+                                                    </p>
+                                                    <p>Maison unifamiliale</p>
+                                                </div>
+                                                <div class="info-row date hide-on-grid">
+                                                    <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
+                                                    <p><i class="fa fa-calendar"></i> 12 jours avant </p>
+                                                </div>
+                                            </div>
+                                            <div class="body-right table-cell hidden-gird-cell">
+                                                <div class="info-row price">
+                                                    <h3> AR 350,000</h3>
+                                                    <p class="rant"> AR 21,000/m²</p>
+                                                </div>
+                                                <div class="info-row phone text-right">
+                                                    <a href="#" class="btn btn-primary">Détails <i class="fa fa-angle-right fa-right"></i></a>
+                                                    <p><a href="#">+261 33 21 458 66</a></p>
+                                                </div>
+                                            </div>
+                                            <div class="table-list full-width hide-on-list">
+                                                <div class="cell">
+                                                    <div class="info-row amenities">
+                                                        <p>
+                                                            <span>Lits: 3</span>
+                                                            <span>Chambres: 2</span>
+                                                            <span>M²: 1,965</span>
+                                                        </p>
+                                                        <p>Maison unifamiliale</p>
+                                                    </div>
+                                                </div>
+                                                <div class="cell">
+                                                    <div class="phone">
+                                                        <a href="#" class="btn btn-primary">Détails <i class="fa fa-angle-right fa-right"></i></a>
+                                                        <p><a href="#">+261 33 256 31</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-foot date hide-on-list">
+                                        <div class="item-foot-left">
+                                            <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
+                                        </div>
+                                        <div class="item-foot-right">
+                                            <p><i class="fa fa-calendar"></i> 12 jours avant </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end property items-->
+
+                        <hr>
+
+                        <!--start Pagination-->
+                        <div class="pagination-main">
+                            <ul class="pagination">
+                                <li class="disabled"><a aria-label="Previous" href="#"><span aria-hidden="true"><i class="fa fa-angle-left"></i></span></a></li>
+                                <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a aria-label="Next" href="#"><span aria-hidden="true"><i class="fa fa-angle-right"></i></span></a></li>
+                            </ul>
+                        </div>
+                        <!--start Pagination-->
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-md-offset-0 col-sm-offset-3 container-sidebar">
+                    <aside id="sidebar" class="sidebar-white">
+                        <div class="widget widget-range">
+                            <div class="widget-body">
+                                <form>
+                                    <div class="range-block">
+                                        <h4>Échelle des prix:</h4>
+                                        <div id="slider-price"></div>
+                                        <div class="clearfix range-text">
+                                            <input type="text" class="pull-left range-input text-left" id="min-price" readonly >
+                                            <input type="text" class="pull-right range-input text-right" id="max-price" readonly >
+                                        </div>
+                                    </div>
+                                    <div class="range-block">
+                                        <h4>Taille de la zone</h4>
+                                        <div id="slider-size"></div>
+                                        <div class="clearfix range-text">
+                                            <input type="text" class="pull-left range-input text-left" id="min-size" readonly >
+                                            <input type="text" class="pull-right range-input text-right" id="max-size" readonly >
+                                        </div>
+                                    </div>
+                                    <div class="range-block rang-form-block">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-xs-12">
+                                                <div class="form-group">
+                                                    <input class="form-control" name="keyword" placeholder="rechercher" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12">
+                                                <div class="form-group">
+                                                    <select class="selectpicker" data-live-search="false" data-live-search-style="begins" title="Type de propriété">
+                                                        <option>Type de propriété 1</option>
+                                                        <option>Type de propriété 2</option>
+                                                        <option>Type de propriété 3</option>
+                                                        <option>Type de propriété 4</option>
+                                                        <option>Type de propriété 5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <select class="selectpicker" data-live-search="false" data-live-search-style="begins" title="Lits">
+                                                        <option>Des lits 1</option>
+                                                        <option>Des lits 2</option>
+                                                        <option>Des lits 3</option>
+                                                        <option>Des lits 4</option>
+                                                        <option>Des lits 5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <select class="selectpicker" data-live-search="false" data-live-search-style="begins" title="salle">
+                                                        <option>lits 1</option>
+                                                        <option>lits 2</option>
+                                                        <option>lits 3</option>
+                                                        <option>lits 4</option>
+                                                        <option>lits 5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12">
+                                                <div class="form-group">
+                                                    <select class="selectpicker" data-live-search="false" data-live-search-style="begins" title="Type de propriété">
+                                                        <option>Type 1</option>
+                                                        <option>Type 2</option>
+                                                        <option>Type 3</option>
+                                                        <option>Type 4</option>
+                                                        <option>Type 5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12">
+                                                <div class="form-group">
+                                                    <select class="selectpicker" data-live-search="false" data-live-search-style="begins" title="Status">
+                                                        <option>Statu 1</option>
+                                                        <option>Statu 2</option>
+                                                        <option>Statu 3</option>
+                                                        <option>Statu 4</option>
+                                                        <option>Statu 5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12">
+                                                <button type="submit" class="btn btn-secondary btn-block"> Chercher</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="widget widget-featured">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Propriétés en vedette</h3>
+                            </div>
+                            <div class="widget-body">
+                                <div class="figure-block">
+                                    <figure class="item-thumb">
+                                        <span class="label-featured label label-success">vedette</span>
+                                        <a class="hover-effect" href="#">
+                                            <img src="http://placehold.it/290x194" width="290" height="194" alt="thumb">
+                                        </a>
+                                        <figcaption class="thumb-caption clearfix">
+                                            <div class="cap-price pull-left">AR 350,000</div>
+
+                                            <ul class="list-unstyled actions pull-right">
+                                                <li>
+                                                    <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Photos">
+                                                        <i class="fa fa-camera"></i> <span class="blue">12</span>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="figure-block">
+                                    <figure class="item-thumb">
+                                        <span class="label-featured label label-success">vedette</span>
+                                        <a class="hover-effect" href="#">
+                                            <img src="http://placehold.it/290x194" width="290" height="194" alt="thumb">
+                                        </a>
+                                        <figcaption class="thumb-caption clearfix">
+                                            <div class="cap-price pull-left"> AR 350,000</div>
+
+                                            <ul class="list-unstyled actions pull-right">
+                                                <li>
+                                                    <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Photos">
+                                                        <i class="fa fa-camera"></i> <span class="blue">12</span>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget widget-slider">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Slider Propriétés en vedette</h3>
+                            </div>
+                            <div class="widget-body">
+                                <div class="property-widget-slider">
+                                    <div class="item">
+                                        <div class="figure-block">
+                                            <figure class="item-thumb">
+                                                <span class="label-featured label label-success">vedette</span>
+                                                <a href="#" class="hover-effect">
+                                                    <img src="http://placehold.it/370x202" alt="thumb">
+                                                </a>
+                                                <figcaption class="thumb-caption">
+                                                    <div class="cap-price pull-left">AR 350,000</div>
+                                                    <ul class="list-unstyled actions pull-right">
+                                                        <li>
+                                                    <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
+                                                        <i class="fa fa-heart-o"></i>
+                                                    </span>
+                                                        </li>
+                                                        <li class="share-btn">
+                                                            <div class="share_tooltip fade">
+                                                                <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                                                <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                                                <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+                                                                <a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
+                                                            </div>
+                                                            <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
+                                                        </li>
+                                                    </ul>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="figure-block">
+                                            <figure class="item-thumb">
+                                                <span class="label-featured label label-success">En vedette</span>
+                                                <a href="#" class="hover-effect">
+                                                    <img src="http://placehold.it/370x202" alt="thumb">
+                                                </a>
+                                                <figcaption class="thumb-caption">
+                                                    <div class="cap-price pull-left"> AR 350,000</div>
+                                                    <ul class="list-unstyled actions pull-right">
+                                                        <li>
+                                                    <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
+                                                        <i class="fa fa-heart-o"></i>
+                                                    </span>
+                                                        </li>
+                                                        <li class="share-btn">
+                                                            <div class="share_tooltip fade">
+                                                                <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                                                <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                                                <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+                                                                <a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
+                                                            </div>
+                                                            <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
+                                                        </li>
+                                                    </ul>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget widget-recommend">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Nous recommandons</h3>
+                            </div>
+                            <div class="widget-body">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="item-thumb">
+                                            <a class="hover-effect" href="#">
+                                                <img alt="thumb" src="http://placehold.it/100x75" width="100" height="75">
+                                            </a>
+                                            <figcaption class="thumb-caption">
+
+                                                <ul class="list-unstyled actions">
+                                                    <li>
+                                                        <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Photos">
+                                                            <i class="fa fa-camera"></i> <span class="blue">12</span>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Appartement</a></h3>
+                                        <h4> AR 350,000</h4>
+                                        <div class="amenities">
+                                            <p>3 Lits • 2 Chambres • 1,238 m²</p>
+                                            <p>Maison unifamiliale</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="item-thumb">
+                                            <a class="hover-effect" href="#">
+                                                <img alt="thumb" src="http://placehold.it/100x75" width="100" height="75">
+                                            </a>
+                                            <figcaption class="thumb-caption">
+
+                                                <ul class="list-unstyled actions">
+                                                    <li>
+                                                        <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Photos">
+                                                            <i class="fa fa-camera"></i> <span class="blue">12</span>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                     <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Appartement</a></h3>
+                                        <h4> AR 350,000</h4>
+                                        <div class="amenities">
+                                            <p>3 Lits • 2 Chambres • 1,238 m²</p>
+                                            <p>Maison unifamiliale</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="item-thumb">
+                                            <a class="hover-effect" href="#">
+                                                <img alt="thumb" src="http://placehold.it/100x75" width="100" height="75">
+                                            </a>
+                                            <figcaption class="thumb-caption">
+
+                                                <ul class="list-unstyled actions">
+                                                    <li>
+                                                        <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Photos">
+                                                            <i class="fa fa-camera"></i> <span class="blue">12</span>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                     <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Appartement</a></h3>
+                                        <h4> AR 350,000</h4>
+                                        <div class="amenities">
+                                            <p>3 Lits • 2 Chambres • 1,238 m²</p>
+                                            <p>Maison unifamiliale</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget widget-rated">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Propriétés les plus Notés</h3>
+                            </div>
+                            <div class="widget-body">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="item-thumb">
+                                            <a class="hover-effect" href="#">
+                                                <img alt="thumb" src="http://placehold.it/100x75" width="100" height="75">
+                                            </a>
+                                            <figcaption class="thumb-caption">
+
+                                                <ul class="list-unstyled actions">
+                                                    <li>
+                                                        <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Photos">
+                                                            <i class="fa fa-camera"></i> <span class="blue">12</span>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Appartement</a></h3>
+                                        <div class="rating">
+                                            <span class="star-text-left"> AR 350,000</span><span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
+                                        </div>
+                                        <div class="amenities">
+                                            <p>3 Lits • 2 Chambres • 1,238 m²</p>
+                                            <p>Maison unifamiliale</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="item-thumb">
+                                            <a class="hover-effect" href="#">
+                                                <img alt="thumb" src="http://placehold.it/100x75" width="100" height="75">
+                                            </a>
+                                            <figcaption class="thumb-caption">
+
+                                                <ul class="list-unstyled actions">
+                                                    <li>
+                                                        <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Photos">
+                                                            <i class="fa fa-camera"></i> <span class="blue">12</span>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Appartement</a></h3>
+                                        <div class="rating">
+                                            <span class="star-text-left"> AR 350,000</span><span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
+                                        </div>
+                                        <div class="amenities">
+                                            <p>3 Lits • 2 Chambres • 1,238 m²</p>
+                                            <p>Maison unifamiliale</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="item-thumb">
+                                            <a class="hover-effect" href="#">
+                                                <img alt="thumb" src="http://placehold.it/100x75" width="100" height="75">
+                                            </a>
+                                            <figcaption class="thumb-caption">
+
+                                                <ul class="list-unstyled actions">
+                                                    <li>
+                                                        <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Photos">
+                                                            <i class="fa fa-camera"></i> <span class="blue">12</span>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Appartement</a></h3>
+                                        <div class="rating">
+                                            <span class="star-text-left"> AR 350,000</span><span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
+                                        </div>
+                                        <div class="amenities">
+                                            <p>3 Lits • 2 Chambres • 1,238 m²</p>
+                                            <p>Maison unifamiliale</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget widget-categories">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Catégories de propriété</h3>
+                            </div>
+                            <div class="widget-body">
+                                <ul>
+                                    <li><a href="">Appartement</a> <span class="cat-count">(30)</span></li>
+                                    <li><a href="">Maison unifamiliale</a> <span class="cat-count">(30)</span></li>
+                                    <li><a href="">Villa</a> <span class="cat-count">(30)</span></li>
+                                    <li><a href="">Studio</a> <span class="cat-count">(30)</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="widget widget-reviews">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Dernières critiques</h3>
+                            </div>
+                            <div class="widget-body">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object img-circle" src="http://placehold.it/50x50" alt="Thumb" width="50" height="50">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Titre de propriété</a></h3>
+                                        <div class="rating">
+                                            <span class="bottom-ratings"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Etiam
+                                            risus tortor, accumsan at nisi et,
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object img-circle" src="http://placehold.it/50x50" alt="Thumb" width="50" height="50">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Titre de propriété</a></h3>
+                                        <div class="rating">
+                                            <span class="bottom-ratings"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Etiam
+                                            risus tortor, accumsan at nisi et,
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget widget-login">
+                            <div class="widget-body">
+                                <ul class="login-tabs">
+                                    <li class="active">Se connecter</li>
+                                    <li>S'inscrire</li>
+                                </ul>
+                                <div class="login-block">
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade in active">
+                                            <form>
+                                                <div class="form-group field-group">
+                                                    <div class="input-user input-icon">
+                                                        <input placeholder="Nom d'utilisateur">
+                                                    </div>
+                                                    <div class="input-email input-icon">
+                                                        <input placeholder="Adresse e-mails">
+                                                    </div>
+                                                </div>
+                                                <div class="forget-block clearfix">
+                                                    <div class="form-group pull-left">
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox">
+                                                                Se souvenir de moi 
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group pull-right">
+                                                        <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#pop-reset-pass">Mots de passe oublié.</a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn btn-primary btn-block">Se connecter</div>
+                                            </form>
+                                            <hr>
+                                            <a href="#" class="btn btn-social btn-bg-facebook btn-block"><i class="fa fa-facebook"></i>Se connecter avec facebook</a>
+                                        </div>
+                                        <div class="tab-pane fade">
+                                            <form>
+                                                <div class="form-group field-group">
+                                                    <div class="input-user input-icon">
+                                                        <input placeholder="Nom d'utilisateur">
+                                                    </div>
+                                                    <div class="input-email input-icon">
+                                                        <input placeholder="Adresse e-mail">
+                                                    </div>
+                                                </div>
+                                                <div class="forget-block clearfix">
+                                                    <div class="form-group pull-left">
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox">
+                                                                J'accepte les
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group pull-right">
+                                                        <a href="#">Terms et Conditions</a>
+                                                    </div>
+                                                </div>
+                                                <button class="btn btn-primary btn-block">Se connecter</button>
+                                            </form>
+                                            <hr>
+                                            <a href="#" class="btn btn-social btn-bg-facebook btn-block"><i class="fa fa-facebook"></i>Se connecter avec facebook</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget widget-logout">
+                            <div class="widget-body">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <div class="thumb">
+                                            <img src="http://placehold.it/64x64" width="64" height="64" alt="thumb">
+                                        </div>
+                                    </div>
+                                    <div class="media-body v-align-middle">
+                                        <p>Martin Moore</p>
+                                        <a href="#">Se déconnecter</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end section page body-->
+
+     <!--start footer section-->
+    <footer class="footer-v2">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="footer-widget widget-about">
+                            <div class="widget-top">
+                                <h3 class="widget-title">À propos du site</h3>
+                            </div>
+                            <div class="widget-body">
+                                <p>Ma Maison</p>
+                                <p class="read"><a href="about-us.html">Lire la suite <i class="fa fa-caret-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-widget widget-contact">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Nous contacter</h3>
+                            </div>
+                            <div class="widget-body">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-location-arrow"></i>Mahamasinba</li>
+                                    <li><i class="fa fa-phone"></i>+231 032 54 953 67 </li>
+                                    <li><i class="fa fa-envelope-o"></i> <a href="#">info@mamaison.mg</a></li>
+                                </ul>
+                                <p class="read"><a href="contact-us.html">Nous contacter<i class="fa fa-caret-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="footer-widget widget-newsletter">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Newsletter</h3>
+                            </div>
+                            <div class="widget-body">
+                                <form>
+                                    <div class="table-list">
+                                        <div class="form-group table-cell">
+                                            <div class="input-email input-icon">
+                                                <input class="form-control" placeholder="Entrer votre Email">
+                                            </div>
+                                        </div>
+                                        <div class="table-cell">
+                                            <button class="btn btn-primary">Soumettre</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <p>Ma Maison est un site immobilier.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3">
+                        <div class="footer-col">
+                            <p>Ma maison © Tous les droits sont réservés</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-5">
+                        <div class="footer-col">
+                            <div class="navi">
+                                <ul id="footer-menu" class="">
+                                    <li><a href="private.html">Vie Privée</a></li>
+                                    <li><a href="tearm-condition.html">Termes et conditions</a></li>
+                                    <li><a href="Contact-us.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="footer-col foot-social">
+                            <p>
+                                Nous suivre sur
+                                <a href="#"><i class="fa fa-facebook-square" id="faclasse"></i></a>
+                                <a href="#" ><i class="fa fa-twitter-square" id="faclasse" ></i></a>
+                                <a href="#"><i class="fa fa-google-plus-square" id="faclasse" ></i></a>
+                                <a href="#" ><i class="fa fa-linkedin-square" id="faclasse" ></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end footer section-->
+
+    <!--Start Scripts-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
